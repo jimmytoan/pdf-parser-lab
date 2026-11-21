@@ -1,0 +1,12 @@
+.venv/
+envs/
+logs/
+results/outputs/
+results/cache/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+corpus/pdf/
+corpus/pilot/
+corpus/public/*.pdf

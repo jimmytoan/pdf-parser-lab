@@ -1,0 +1,2814 @@
+{
+ "doc": "forms",
+ "category": "forms",
+ "pages": [
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 1,
+     "text": "Corvane Crew Welfare Fund — Medical Claim Form"
+    },
+    {
+     "type": "para",
+     "text": "Claim reference: CW-59744"
+    },
+    {
+     "type": "para",
+     "text": "Complete all sections. Tick every treatment type that applies. Attach receipts for amounts over USD 200."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section A — Claimant details"
+    },
+    {
+     "type": "field",
+     "label": "Claimant name",
+     "text": "Claimant name: Rhea Zielinski"
+    },
+    {
+     "type": "field",
+     "label": "Rank",
+     "text": "Rank: Bosun"
+    },
+    {
+     "type": "field",
+     "label": "Vessel",
+     "text": "Vessel: Topaz Curlew"
+    },
+    {
+     "type": "field",
+     "label": "Date of incident",
+     "text": "Date of incident: 26/06/2025"
+    },
+    {
+     "type": "field",
+     "label": "Port of treatment",
+     "text": "Port of treatment: Morvane Quay"
+    },
+    {
+     "type": "field",
+     "label": "Amount claimed (USD)",
+     "text": "Amount claimed (USD): 10,509"
+    },
+    {
+     "type": "field",
+     "label": "Treating clinic",
+     "text": "Treating clinic: Seaview Hospital"
+    },
+    {
+     "type": "field",
+     "label": "Days off duty",
+     "text": "Days off duty: 24"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section B — Treatment type"
+    },
+    {
+     "type": "checkbox",
+     "label": "Hospitalisation",
+     "checked": false,
+     "text": "Hospitalisation"
+    },
+    {
+     "type": "checkbox",
+     "label": "Outpatient",
+     "checked": false,
+     "text": "Outpatient"
+    },
+    {
+     "type": "checkbox",
+     "label": "Dental",
+     "checked": false,
+     "text": "Dental"
+    },
+    {
+     "type": "checkbox",
+     "label": "Optical",
+     "checked": true,
+     "text": "Optical"
+    },
+    {
+     "type": "checkbox",
+     "label": "Physiotherapy",
+     "checked": true,
+     "text": "Physiotherapy"
+    },
+    {
+     "type": "checkbox",
+     "label": "Repatriation",
+     "checked": false,
+     "text": "Repatriation"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section C — Declaration"
+    },
+    {
+     "type": "para",
+     "text": "I declare that the information given is true and complete, and I authorise the Fund to contact the treating clinic to verify this claim."
+    }
+   ],
+   "furniture": [
+    "CWF-MC v3 · Page 1"
+   ],
+   "fields": [
+    {
+     "label": "Claimant name",
+     "value": "Rhea Zielinski"
+    },
+    {
+     "label": "Rank",
+     "value": "Bosun"
+    },
+    {
+     "label": "Vessel",
+     "value": "Topaz Curlew"
+    },
+    {
+     "label": "Date of incident",
+     "value": "26/06/2025"
+    },
+    {
+     "label": "Port of treatment",
+     "value": "Morvane Quay"
+    },
+    {
+     "label": "Amount claimed (USD)",
+     "value": "10,509"
+    },
+    {
+     "label": "Treating clinic",
+     "value": "Seaview Hospital"
+    },
+    {
+     "label": "Days off duty",
+     "value": "24"
+    }
+   ],
+   "checkboxes": [
+    {
+     "label": "Hospitalisation",
+     "checked": false
+    },
+    {
+     "label": "Outpatient",
+     "checked": false
+    },
+    {
+     "label": "Dental",
+     "checked": false
+    },
+    {
+     "label": "Optical",
+     "checked": true
+    },
+    {
+     "label": "Physiotherapy",
+     "checked": true
+    },
+    {
+     "label": "Repatriation",
+     "checked": false
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 1,
+     "text": "Corvane Crew Welfare Fund — Medical Claim Form"
+    },
+    {
+     "type": "para",
+     "text": "Claim reference: CW-61707"
+    },
+    {
+     "type": "para",
+     "text": "Complete all sections. Tick every treatment type that applies. Attach receipts for amounts over USD 200."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section A — Claimant details"
+    },
+    {
+     "type": "field",
+     "label": "Claimant name",
+     "text": "Claimant name: Celeste Kowalczyk"
+    },
+    {
+     "type": "field",
+     "label": "Rank",
+     "text": "Rank: Chief Engineer"
+    },
+    {
+     "type": "field",
+     "label": "Vessel",
+     "text": "Vessel: Onyx Kittiwake"
+    },
+    {
+     "type": "field",
+     "label": "Date of incident",
+     "text": "Date of incident: 24/12/2025"
+    },
+    {
+     "type": "field",
+     "label": "Port of treatment",
+     "text": "Port of treatment: Helmsby Bay"
+    },
+    {
+     "type": "field",
+     "label": "Amount claimed (USD)",
+     "text": "Amount claimed (USD): 6,699"
+    },
+    {
+     "type": "field",
+     "label": "Treating clinic",
+     "text": "Treating clinic: Seaview Clinic"
+    },
+    {
+     "type": "field",
+     "label": "Days off duty",
+     "text": "Days off duty: 14"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section B — Treatment type"
+    },
+    {
+     "type": "checkbox",
+     "label": "Hospitalisation",
+     "checked": true,
+     "text": "Hospitalisation"
+    },
+    {
+     "type": "checkbox",
+     "label": "Outpatient",
+     "checked": false,
+     "text": "Outpatient"
+    },
+    {
+     "type": "checkbox",
+     "label": "Dental",
+     "checked": false,
+     "text": "Dental"
+    },
+    {
+     "type": "checkbox",
+     "label": "Optical",
+     "checked": true,
+     "text": "Optical"
+    },
+    {
+     "type": "checkbox",
+     "label": "Physiotherapy",
+     "checked": true,
+     "text": "Physiotherapy"
+    },
+    {
+     "type": "checkbox",
+     "label": "Repatriation",
+     "checked": false,
+     "text": "Repatriation"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section C — Declaration"
+    },
+    {
+     "type": "para",
+     "text": "I declare that the information given is true and complete, and I authorise the Fund to contact the treating clinic to verify this claim."
+    }
+   ],
+   "furniture": [
+    "CWF-MC v3 · Page 2"
+   ],
+   "fields": [
+    {
+     "label": "Claimant name",
+     "value": "Celeste Kowalczyk"
+    },
+    {
+     "label": "Rank",
+     "value": "Chief Engineer"
+    },
+    {
+     "label": "Vessel",
+     "value": "Onyx Kittiwake"
+    },
+    {
+     "label": "Date of incident",
+     "value": "24/12/2025"
+    },
+    {
+     "label": "Port of treatment",
+     "value": "Helmsby Bay"
+    },
+    {
+     "label": "Amount claimed (USD)",
+     "value": "6,699"
+    },
+    {
+     "label": "Treating clinic",
+     "value": "Seaview Clinic"
+    },
+    {
+     "label": "Days off duty",
+     "value": "14"
+    }
+   ],
+   "checkboxes": [
+    {
+     "label": "Hospitalisation",
+     "checked": true
+    },
+    {
+     "label": "Outpatient",
+     "checked": false
+    },
+    {
+     "label": "Dental",
+     "checked": false
+    },
+    {
+     "label": "Optical",
+     "checked": true
+    },
+    {
+     "label": "Physiotherapy",
+     "checked": true
+    },
+    {
+     "label": "Repatriation",
+     "checked": false
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 1,
+     "text": "Corvane Crew Welfare Fund — Medical Claim Form"
+    },
+    {
+     "type": "para",
+     "text": "Claim reference: CW-60031"
+    },
+    {
+     "type": "para",
+     "text": "Complete all sections. Tick every treatment type that applies. Attach receipts for amounts over USD 200."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section A — Claimant details"
+    },
+    {
+     "type": "field",
+     "label": "Claimant name",
+     "text": "Claimant name: Celeste Vanterpool"
+    },
+    {
+     "type": "field",
+     "label": "Rank",
+     "text": "Rank: Bosun"
+    },
+    {
+     "type": "field",
+     "label": "Vessel",
+     "text": "Vessel: Russet Heron"
+    },
+    {
+     "type": "field",
+     "label": "Date of incident",
+     "text": "Date of incident: 21/06/2025"
+    },
+    {
+     "type": "field",
+     "label": "Port of treatment",
+     "text": "Port of treatment: Ullock Sound"
+    },
+    {
+     "type": "field",
+     "label": "Amount claimed (USD)",
+     "text": "Amount claimed (USD): 1,913"
+    },
+    {
+     "type": "field",
+     "label": "Treating clinic",
+     "text": "Treating clinic: Harbour Clinic"
+    },
+    {
+     "type": "field",
+     "label": "Days off duty",
+     "text": "Days off duty: 5"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section B — Treatment type"
+    },
+    {
+     "type": "checkbox",
+     "label": "Hospitalisation",
+     "checked": true,
+     "text": "Hospitalisation"
+    },
+    {
+     "type": "checkbox",
+     "label": "Outpatient",
+     "checked": false,
+     "text": "Outpatient"
+    },
+    {
+     "type": "checkbox",
+     "label": "Dental",
+     "checked": false,
+     "text": "Dental"
+    },
+    {
+     "type": "checkbox",
+     "label": "Optical",
+     "checked": false,
+     "text": "Optical"
+    },
+    {
+     "type": "checkbox",
+     "label": "Physiotherapy",
+     "checked": true,
+     "text": "Physiotherapy"
+    },
+    {
+     "type": "checkbox",
+     "label": "Repatriation",
+     "checked": true,
+     "text": "Repatriation"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section C — Declaration"
+    },
+    {
+     "type": "para",
+     "text": "I declare that the information given is true and complete, and I authorise the Fund to contact the treating clinic to verify this claim."
+    }
+   ],
+   "furniture": [
+    "CWF-MC v3 · Page 3"
+   ],
+   "fields": [
+    {
+     "label": "Claimant name",
+     "value": "Celeste Vanterpool"
+    },
+    {
+     "label": "Rank",
+     "value": "Bosun"
+    },
+    {
+     "label": "Vessel",
+     "value": "Russet Heron"
+    },
+    {
+     "label": "Date of incident",
+     "value": "21/06/2025"
+    },
+    {
+     "label": "Port of treatment",
+     "value": "Ullock Sound"
+    },
+    {
+     "label": "Amount claimed (USD)",
+     "value": "1,913"
+    },
+    {
+     "label": "Treating clinic",
+     "value": "Harbour Clinic"
+    },
+    {
+     "label": "Days off duty",
+     "value": "5"
+    }
+   ],
+   "checkboxes": [
+    {
+     "label": "Hospitalisation",
+     "checked": true
+    },
+    {
+     "label": "Outpatient",
+     "checked": false
+    },
+    {
+     "label": "Dental",
+     "checked": false
+    },
+    {
+     "label": "Optical",
+     "checked": false
+    },
+    {
+     "label": "Physiotherapy",
+     "checked": true
+    },
+    {
+     "label": "Repatriation",
+     "checked": true
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 1,
+     "text": "Corvane Crew Welfare Fund — Medical Claim Form"
+    },
+    {
+     "type": "para",
+     "text": "Claim reference: CW-27859"
+    },
+    {
+     "type": "para",
+     "text": "Complete all sections. Tick every treatment type that applies. Attach receipts for amounts over USD 200."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section A — Claimant details"
+    },
+    {
+     "type": "field",
+     "label": "Claimant name",
+     "text": "Claimant name: Ines Vanterpool"
+    },
+    {
+     "type": "field",
+     "label": "Rank",
+     "text": "Rank: Able Seaman"
+    },
+    {
+     "type": "field",
+     "label": "Vessel",
+     "text": "Vessel: Granite Kittiwake"
+    },
+    {
+     "type": "field",
+     "label": "Date of incident",
+     "text": "Date of incident: 19/08/2025"
+    },
+    {
+     "type": "field",
+     "label": "Port of treatment",
+     "text": "Port of treatment: Thorne Quay"
+    },
+    {
+     "type": "field",
+     "label": "Amount claimed (USD)",
+     "text": "Amount claimed (USD): 5,112"
+    },
+    {
+     "type": "field",
+     "label": "Treating clinic",
+     "text": "Treating clinic: St Hospital"
+    },
+    {
+     "type": "field",
+     "label": "Days off duty",
+     "text": "Days off duty: 9"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section B — Treatment type"
+    },
+    {
+     "type": "checkbox",
+     "label": "Hospitalisation",
+     "checked": false,
+     "text": "Hospitalisation"
+    },
+    {
+     "type": "checkbox",
+     "label": "Outpatient",
+     "checked": true,
+     "text": "Outpatient"
+    },
+    {
+     "type": "checkbox",
+     "label": "Dental",
+     "checked": false,
+     "text": "Dental"
+    },
+    {
+     "type": "checkbox",
+     "label": "Optical",
+     "checked": false,
+     "text": "Optical"
+    },
+    {
+     "type": "checkbox",
+     "label": "Physiotherapy",
+     "checked": true,
+     "text": "Physiotherapy"
+    },
+    {
+     "type": "checkbox",
+     "label": "Repatriation",
+     "checked": false,
+     "text": "Repatriation"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section C — Declaration"
+    },
+    {
+     "type": "para",
+     "text": "I declare that the information given is true and complete, and I authorise the Fund to contact the treating clinic to verify this claim."
+    }
+   ],
+   "furniture": [
+    "CWF-MC v3 · Page 4"
+   ],
+   "fields": [
+    {
+     "label": "Claimant name",
+     "value": "Ines Vanterpool"
+    },
+    {
+     "label": "Rank",
+     "value": "Able Seaman"
+    },
+    {
+     "label": "Vessel",
+     "value": "Granite Kittiwake"
+    },
+    {
+     "label": "Date of incident",
+     "value": "19/08/2025"
+    },
+    {
+     "label": "Port of treatment",
+     "value": "Thorne Quay"
+    },
+    {
+     "label": "Amount claimed (USD)",
+     "value": "5,112"
+    },
+    {
+     "label": "Treating clinic",
+     "value": "St Hospital"
+    },
+    {
+     "label": "Days off duty",
+     "value": "9"
+    }
+   ],
+   "checkboxes": [
+    {
+     "label": "Hospitalisation",
+     "checked": false
+    },
+    {
+     "label": "Outpatient",
+     "checked": true
+    },
+    {
+     "label": "Dental",
+     "checked": false
+    },
+    {
+     "label": "Optical",
+     "checked": false
+    },
+    {
+     "label": "Physiotherapy",
+     "checked": true
+    },
+    {
+     "label": "Repatriation",
+     "checked": false
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 1,
+     "text": "Corvane Crew Welfare Fund — Medical Claim Form"
+    },
+    {
+     "type": "para",
+     "text": "Claim reference: CW-67484"
+    },
+    {
+     "type": "para",
+     "text": "Complete all sections. Tick every treatment type that applies. Attach receipts for amounts over USD 200."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section A — Claimant details"
+    },
+    {
+     "type": "field",
+     "label": "Claimant name",
+     "text": "Claimant name: Mireille Tanaka"
+    },
+    {
+     "type": "field",
+     "label": "Rank",
+     "text": "Rank: Third Engineer"
+    },
+    {
+     "type": "field",
+     "label": "Vessel",
+     "text": "Vessel: Cobalt Skua"
+    },
+    {
+     "type": "field",
+     "label": "Date of incident",
+     "text": "Date of incident: 02/07/2025"
+    },
+    {
+     "type": "field",
+     "label": "Port of treatment",
+     "text": "Port of treatment: Pellow Point"
+    },
+    {
+     "type": "field",
+     "label": "Amount claimed (USD)",
+     "text": "Amount claimed (USD): 4,772"
+    },
+    {
+     "type": "field",
+     "label": "Treating clinic",
+     "text": "Treating clinic: Seaview Medical Centre"
+    },
+    {
+     "type": "field",
+     "label": "Days off duty",
+     "text": "Days off duty: 50"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section B — Treatment type"
+    },
+    {
+     "type": "checkbox",
+     "label": "Hospitalisation",
+     "checked": false,
+     "text": "Hospitalisation"
+    },
+    {
+     "type": "checkbox",
+     "label": "Outpatient",
+     "checked": true,
+     "text": "Outpatient"
+    },
+    {
+     "type": "checkbox",
+     "label": "Dental",
+     "checked": true,
+     "text": "Dental"
+    },
+    {
+     "type": "checkbox",
+     "label": "Optical",
+     "checked": false,
+     "text": "Optical"
+    },
+    {
+     "type": "checkbox",
+     "label": "Physiotherapy",
+     "checked": false,
+     "text": "Physiotherapy"
+    },
+    {
+     "type": "checkbox",
+     "label": "Repatriation",
+     "checked": true,
+     "text": "Repatriation"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section C — Declaration"
+    },
+    {
+     "type": "para",
+     "text": "I declare that the information given is true and complete, and I authorise the Fund to contact the treating clinic to verify this claim."
+    }
+   ],
+   "furniture": [
+    "CWF-MC v3 · Page 5"
+   ],
+   "fields": [
+    {
+     "label": "Claimant name",
+     "value": "Mireille Tanaka"
+    },
+    {
+     "label": "Rank",
+     "value": "Third Engineer"
+    },
+    {
+     "label": "Vessel",
+     "value": "Cobalt Skua"
+    },
+    {
+     "label": "Date of incident",
+     "value": "02/07/2025"
+    },
+    {
+     "label": "Port of treatment",
+     "value": "Pellow Point"
+    },
+    {
+     "label": "Amount claimed (USD)",
+     "value": "4,772"
+    },
+    {
+     "label": "Treating clinic",
+     "value": "Seaview Medical Centre"
+    },
+    {
+     "label": "Days off duty",
+     "value": "50"
+    }
+   ],
+   "checkboxes": [
+    {
+     "label": "Hospitalisation",
+     "checked": false
+    },
+    {
+     "label": "Outpatient",
+     "checked": true
+    },
+    {
+     "label": "Dental",
+     "checked": true
+    },
+    {
+     "label": "Optical",
+     "checked": false
+    },
+    {
+     "label": "Physiotherapy",
+     "checked": false
+    },
+    {
+     "label": "Repatriation",
+     "checked": true
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 1,
+     "text": "Corvane Crew Welfare Fund — Medical Claim Form"
+    },
+    {
+     "type": "para",
+     "text": "Claim reference: CW-97767"
+    },
+    {
+     "type": "para",
+     "text": "Complete all sections. Tick every treatment type that applies. Attach receipts for amounts over USD 200."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section A — Claimant details"
+    },
+    {
+     "type": "field",
+     "label": "Claimant name",
+     "text": "Claimant name: Talia Petrov"
+    },
+    {
+     "type": "field",
+     "label": "Rank",
+     "text": "Rank: Third Engineer"
+    },
+    {
+     "type": "field",
+     "label": "Vessel",
+     "text": "Vessel: Umber Curlew"
+    },
+    {
+     "type": "field",
+     "label": "Date of incident",
+     "text": "Date of incident: 04/11/2025"
+    },
+    {
+     "type": "field",
+     "label": "Port of treatment",
+     "text": "Port of treatment: Helmsby Quay"
+    },
+    {
+     "type": "field",
+     "label": "Amount claimed (USD)",
+     "text": "Amount claimed (USD): 2,119"
+    },
+    {
+     "type": "field",
+     "label": "Treating clinic",
+     "text": "Treating clinic: Seaview Medical Centre"
+    },
+    {
+     "type": "field",
+     "label": "Days off duty",
+     "text": "Days off duty: 14"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section B — Treatment type"
+    },
+    {
+     "type": "checkbox",
+     "label": "Hospitalisation",
+     "checked": true,
+     "text": "Hospitalisation"
+    },
+    {
+     "type": "checkbox",
+     "label": "Outpatient",
+     "checked": false,
+     "text": "Outpatient"
+    },
+    {
+     "type": "checkbox",
+     "label": "Dental",
+     "checked": false,
+     "text": "Dental"
+    },
+    {
+     "type": "checkbox",
+     "label": "Optical",
+     "checked": true,
+     "text": "Optical"
+    },
+    {
+     "type": "checkbox",
+     "label": "Physiotherapy",
+     "checked": true,
+     "text": "Physiotherapy"
+    },
+    {
+     "type": "checkbox",
+     "label": "Repatriation",
+     "checked": false,
+     "text": "Repatriation"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section C — Declaration"
+    },
+    {
+     "type": "para",
+     "text": "I declare that the information given is true and complete, and I authorise the Fund to contact the treating clinic to verify this claim."
+    }
+   ],
+   "furniture": [
+    "CWF-MC v3 · Page 6"
+   ],
+   "fields": [
+    {
+     "label": "Claimant name",
+     "value": "Talia Petrov"
+    },
+    {
+     "label": "Rank",
+     "value": "Third Engineer"
+    },
+    {
+     "label": "Vessel",
+     "value": "Umber Curlew"
+    },
+    {
+     "label": "Date of incident",
+     "value": "04/11/2025"
+    },
+    {
+     "label": "Port of treatment",
+     "value": "Helmsby Quay"
+    },
+    {
+     "label": "Amount claimed (USD)",
+     "value": "2,119"
+    },
+    {
+     "label": "Treating clinic",
+     "value": "Seaview Medical Centre"
+    },
+    {
+     "label": "Days off duty",
+     "value": "14"
+    }
+   ],
+   "checkboxes": [
+    {
+     "label": "Hospitalisation",
+     "checked": true
+    },
+    {
+     "label": "Outpatient",
+     "checked": false
+    },
+    {
+     "label": "Dental",
+     "checked": false
+    },
+    {
+     "label": "Optical",
+     "checked": true
+    },
+    {
+     "label": "Physiotherapy",
+     "checked": true
+    },
+    {
+     "label": "Repatriation",
+     "checked": false
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 1,
+     "text": "Corvane Crew Welfare Fund — Medical Claim Form"
+    },
+    {
+     "type": "para",
+     "text": "Claim reference: CW-63125"
+    },
+    {
+     "type": "para",
+     "text": "Complete all sections. Tick every treatment type that applies. Attach receipts for amounts over USD 200."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section A — Claimant details"
+    },
+    {
+     "type": "field",
+     "label": "Claimant name",
+     "text": "Claimant name: Lucan Petrov"
+    },
+    {
+     "type": "field",
+     "label": "Rank",
+     "text": "Rank: Second Officer"
+    },
+    {
+     "type": "field",
+     "label": "Vessel",
+     "text": "Vessel: Willow Plover"
+    },
+    {
+     "type": "field",
+     "label": "Date of incident",
+     "text": "Date of incident: 16/12/2025"
+    },
+    {
+     "type": "field",
+     "label": "Port of treatment",
+     "text": "Port of treatment: Strand Reach"
+    },
+    {
+     "type": "field",
+     "label": "Amount claimed (USD)",
+     "text": "Amount claimed (USD): 9,888"
+    },
+    {
+     "type": "field",
+     "label": "Treating clinic",
+     "text": "Treating clinic: St Clinic"
+    },
+    {
+     "type": "field",
+     "label": "Days off duty",
+     "text": "Days off duty: 68"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section B — Treatment type"
+    },
+    {
+     "type": "checkbox",
+     "label": "Hospitalisation",
+     "checked": true,
+     "text": "Hospitalisation"
+    },
+    {
+     "type": "checkbox",
+     "label": "Outpatient",
+     "checked": false,
+     "text": "Outpatient"
+    },
+    {
+     "type": "checkbox",
+     "label": "Dental",
+     "checked": true,
+     "text": "Dental"
+    },
+    {
+     "type": "checkbox",
+     "label": "Optical",
+     "checked": false,
+     "text": "Optical"
+    },
+    {
+     "type": "checkbox",
+     "label": "Physiotherapy",
+     "checked": false,
+     "text": "Physiotherapy"
+    },
+    {
+     "type": "checkbox",
+     "label": "Repatriation",
+     "checked": true,
+     "text": "Repatriation"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section C — Declaration"
+    },
+    {
+     "type": "para",
+     "text": "I declare that the information given is true and complete, and I authorise the Fund to contact the treating clinic to verify this claim."
+    }
+   ],
+   "furniture": [
+    "CWF-MC v3 · Page 7"
+   ],
+   "fields": [
+    {
+     "label": "Claimant name",
+     "value": "Lucan Petrov"
+    },
+    {
+     "label": "Rank",
+     "value": "Second Officer"
+    },
+    {
+     "label": "Vessel",
+     "value": "Willow Plover"
+    },
+    {
+     "label": "Date of incident",
+     "value": "16/12/2025"
+    },
+    {
+     "label": "Port of treatment",
+     "value": "Strand Reach"
+    },
+    {
+     "label": "Amount claimed (USD)",
+     "value": "9,888"
+    },
+    {
+     "label": "Treating clinic",
+     "value": "St Clinic"
+    },
+    {
+     "label": "Days off duty",
+     "value": "68"
+    }
+   ],
+   "checkboxes": [
+    {
+     "label": "Hospitalisation",
+     "checked": true
+    },
+    {
+     "label": "Outpatient",
+     "checked": false
+    },
+    {
+     "label": "Dental",
+     "checked": true
+    },
+    {
+     "label": "Optical",
+     "checked": false
+    },
+    {
+     "label": "Physiotherapy",
+     "checked": false
+    },
+    {
+     "label": "Repatriation",
+     "checked": true
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 1,
+     "text": "Corvane Crew Welfare Fund — Medical Claim Form"
+    },
+    {
+     "type": "para",
+     "text": "Claim reference: CW-70771"
+    },
+    {
+     "type": "para",
+     "text": "Complete all sections. Tick every treatment type that applies. Attach receipts for amounts over USD 200."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section A — Claimant details"
+    },
+    {
+     "type": "field",
+     "label": "Claimant name",
+     "text": "Claimant name: Talia Esterhazy"
+    },
+    {
+     "type": "field",
+     "label": "Rank",
+     "text": "Rank: Able Seaman"
+    },
+    {
+     "type": "field",
+     "label": "Vessel",
+     "text": "Vessel: Amber Petrel"
+    },
+    {
+     "type": "field",
+     "label": "Date of incident",
+     "text": "Date of incident: 21/07/2025"
+    },
+    {
+     "type": "field",
+     "label": "Port of treatment",
+     "text": "Port of treatment: Morvane Sound"
+    },
+    {
+     "type": "field",
+     "label": "Amount claimed (USD)",
+     "text": "Amount claimed (USD): 944"
+    },
+    {
+     "type": "field",
+     "label": "Treating clinic",
+     "text": "Treating clinic: Bayside Medical Centre"
+    },
+    {
+     "type": "field",
+     "label": "Days off duty",
+     "text": "Days off duty: 10"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section B — Treatment type"
+    },
+    {
+     "type": "checkbox",
+     "label": "Hospitalisation",
+     "checked": false,
+     "text": "Hospitalisation"
+    },
+    {
+     "type": "checkbox",
+     "label": "Outpatient",
+     "checked": false,
+     "text": "Outpatient"
+    },
+    {
+     "type": "checkbox",
+     "label": "Dental",
+     "checked": false,
+     "text": "Dental"
+    },
+    {
+     "type": "checkbox",
+     "label": "Optical",
+     "checked": true,
+     "text": "Optical"
+    },
+    {
+     "type": "checkbox",
+     "label": "Physiotherapy",
+     "checked": false,
+     "text": "Physiotherapy"
+    },
+    {
+     "type": "checkbox",
+     "label": "Repatriation",
+     "checked": true,
+     "text": "Repatriation"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section C — Declaration"
+    },
+    {
+     "type": "para",
+     "text": "I declare that the information given is true and complete, and I authorise the Fund to contact the treating clinic to verify this claim."
+    }
+   ],
+   "furniture": [
+    "CWF-MC v3 · Page 8"
+   ],
+   "fields": [
+    {
+     "label": "Claimant name",
+     "value": "Talia Esterhazy"
+    },
+    {
+     "label": "Rank",
+     "value": "Able Seaman"
+    },
+    {
+     "label": "Vessel",
+     "value": "Amber Petrel"
+    },
+    {
+     "label": "Date of incident",
+     "value": "21/07/2025"
+    },
+    {
+     "label": "Port of treatment",
+     "value": "Morvane Sound"
+    },
+    {
+     "label": "Amount claimed (USD)",
+     "value": "944"
+    },
+    {
+     "label": "Treating clinic",
+     "value": "Bayside Medical Centre"
+    },
+    {
+     "label": "Days off duty",
+     "value": "10"
+    }
+   ],
+   "checkboxes": [
+    {
+     "label": "Hospitalisation",
+     "checked": false
+    },
+    {
+     "label": "Outpatient",
+     "checked": false
+    },
+    {
+     "label": "Dental",
+     "checked": false
+    },
+    {
+     "label": "Optical",
+     "checked": true
+    },
+    {
+     "label": "Physiotherapy",
+     "checked": false
+    },
+    {
+     "label": "Repatriation",
+     "checked": true
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 1,
+     "text": "Corvane Crew Welfare Fund — Medical Claim Form"
+    },
+    {
+     "type": "para",
+     "text": "Claim reference: CW-56764"
+    },
+    {
+     "type": "para",
+     "text": "Complete all sections. Tick every treatment type that applies. Attach receipts for amounts over USD 200."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section A — Claimant details"
+    },
+    {
+     "type": "field",
+     "label": "Claimant name",
+     "text": "Claimant name: Yusuf Nakamura"
+    },
+    {
+     "type": "field",
+     "label": "Rank",
+     "text": "Rank: Able Seaman"
+    },
+    {
+     "type": "field",
+     "label": "Vessel",
+     "text": "Vessel: Umber Gannet"
+    },
+    {
+     "type": "field",
+     "label": "Date of incident",
+     "text": "Date of incident: 17/08/2025"
+    },
+    {
+     "type": "field",
+     "label": "Port of treatment",
+     "text": "Port of treatment: Tavish Reach"
+    },
+    {
+     "type": "field",
+     "label": "Amount claimed (USD)",
+     "text": "Amount claimed (USD): 783"
+    },
+    {
+     "type": "field",
+     "label": "Treating clinic",
+     "text": "Treating clinic: Seaview Hospital"
+    },
+    {
+     "type": "field",
+     "label": "Days off duty",
+     "text": "Days off duty: 24"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section B — Treatment type"
+    },
+    {
+     "type": "checkbox",
+     "label": "Hospitalisation",
+     "checked": false,
+     "text": "Hospitalisation"
+    },
+    {
+     "type": "checkbox",
+     "label": "Outpatient",
+     "checked": false,
+     "text": "Outpatient"
+    },
+    {
+     "type": "checkbox",
+     "label": "Dental",
+     "checked": false,
+     "text": "Dental"
+    },
+    {
+     "type": "checkbox",
+     "label": "Optical",
+     "checked": true,
+     "text": "Optical"
+    },
+    {
+     "type": "checkbox",
+     "label": "Physiotherapy",
+     "checked": false,
+     "text": "Physiotherapy"
+    },
+    {
+     "type": "checkbox",
+     "label": "Repatriation",
+     "checked": false,
+     "text": "Repatriation"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section C — Declaration"
+    },
+    {
+     "type": "para",
+     "text": "I declare that the information given is true and complete, and I authorise the Fund to contact the treating clinic to verify this claim."
+    }
+   ],
+   "furniture": [
+    "CWF-MC v3 · Page 9"
+   ],
+   "fields": [
+    {
+     "label": "Claimant name",
+     "value": "Yusuf Nakamura"
+    },
+    {
+     "label": "Rank",
+     "value": "Able Seaman"
+    },
+    {
+     "label": "Vessel",
+     "value": "Umber Gannet"
+    },
+    {
+     "label": "Date of incident",
+     "value": "17/08/2025"
+    },
+    {
+     "label": "Port of treatment",
+     "value": "Tavish Reach"
+    },
+    {
+     "label": "Amount claimed (USD)",
+     "value": "783"
+    },
+    {
+     "label": "Treating clinic",
+     "value": "Seaview Hospital"
+    },
+    {
+     "label": "Days off duty",
+     "value": "24"
+    }
+   ],
+   "checkboxes": [
+    {
+     "label": "Hospitalisation",
+     "checked": false
+    },
+    {
+     "label": "Outpatient",
+     "checked": false
+    },
+    {
+     "label": "Dental",
+     "checked": false
+    },
+    {
+     "label": "Optical",
+     "checked": true
+    },
+    {
+     "label": "Physiotherapy",
+     "checked": false
+    },
+    {
+     "label": "Repatriation",
+     "checked": false
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 1,
+     "text": "Corvane Crew Welfare Fund — Medical Claim Form"
+    },
+    {
+     "type": "para",
+     "text": "Claim reference: CW-39528"
+    },
+    {
+     "type": "para",
+     "text": "Complete all sections. Tick every treatment type that applies. Attach receipts for amounts over USD 200."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section A — Claimant details"
+    },
+    {
+     "type": "field",
+     "label": "Claimant name",
+     "text": "Claimant name: Soren Whitcombe"
+    },
+    {
+     "type": "field",
+     "label": "Rank",
+     "text": "Rank: Cook"
+    },
+    {
+     "type": "field",
+     "label": "Vessel",
+     "text": "Vessel: Sable Grebe"
+    },
+    {
+     "type": "field",
+     "label": "Date of incident",
+     "text": "Date of incident: 06/11/2025"
+    },
+    {
+     "type": "field",
+     "label": "Port of treatment",
+     "text": "Port of treatment: Windle Haven"
+    },
+    {
+     "type": "field",
+     "label": "Amount claimed (USD)",
+     "text": "Amount claimed (USD): 8,534"
+    },
+    {
+     "type": "field",
+     "label": "Treating clinic",
+     "text": "Treating clinic: Mariners Medical Centre"
+    },
+    {
+     "type": "field",
+     "label": "Days off duty",
+     "text": "Days off duty: 4"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section B — Treatment type"
+    },
+    {
+     "type": "checkbox",
+     "label": "Hospitalisation",
+     "checked": false,
+     "text": "Hospitalisation"
+    },
+    {
+     "type": "checkbox",
+     "label": "Outpatient",
+     "checked": true,
+     "text": "Outpatient"
+    },
+    {
+     "type": "checkbox",
+     "label": "Dental",
+     "checked": false,
+     "text": "Dental"
+    },
+    {
+     "type": "checkbox",
+     "label": "Optical",
+     "checked": false,
+     "text": "Optical"
+    },
+    {
+     "type": "checkbox",
+     "label": "Physiotherapy",
+     "checked": false,
+     "text": "Physiotherapy"
+    },
+    {
+     "type": "checkbox",
+     "label": "Repatriation",
+     "checked": false,
+     "text": "Repatriation"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section C — Declaration"
+    },
+    {
+     "type": "para",
+     "text": "I declare that the information given is true and complete, and I authorise the Fund to contact the treating clinic to verify this claim."
+    }
+   ],
+   "furniture": [
+    "CWF-MC v3 · Page 10"
+   ],
+   "fields": [
+    {
+     "label": "Claimant name",
+     "value": "Soren Whitcombe"
+    },
+    {
+     "label": "Rank",
+     "value": "Cook"
+    },
+    {
+     "label": "Vessel",
+     "value": "Sable Grebe"
+    },
+    {
+     "label": "Date of incident",
+     "value": "06/11/2025"
+    },
+    {
+     "label": "Port of treatment",
+     "value": "Windle Haven"
+    },
+    {
+     "label": "Amount claimed (USD)",
+     "value": "8,534"
+    },
+    {
+     "label": "Treating clinic",
+     "value": "Mariners Medical Centre"
+    },
+    {
+     "label": "Days off duty",
+     "value": "4"
+    }
+   ],
+   "checkboxes": [
+    {
+     "label": "Hospitalisation",
+     "checked": false
+    },
+    {
+     "label": "Outpatient",
+     "checked": true
+    },
+    {
+     "label": "Dental",
+     "checked": false
+    },
+    {
+     "label": "Optical",
+     "checked": false
+    },
+    {
+     "label": "Physiotherapy",
+     "checked": false
+    },
+    {
+     "label": "Repatriation",
+     "checked": false
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 1,
+     "text": "Corvane Crew Welfare Fund — Medical Claim Form"
+    },
+    {
+     "type": "para",
+     "text": "Claim reference: CW-88758"
+    },
+    {
+     "type": "para",
+     "text": "Complete all sections. Tick every treatment type that applies. Attach receipts for amounts over USD 200."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section A — Claimant details"
+    },
+    {
+     "type": "field",
+     "label": "Claimant name",
+     "text": "Claimant name: Helena Esterhazy"
+    },
+    {
+     "type": "field",
+     "label": "Rank",
+     "text": "Rank: Third Engineer"
+    },
+    {
+     "type": "field",
+     "label": "Vessel",
+     "text": "Vessel: Silver Puffin"
+    },
+    {
+     "type": "field",
+     "label": "Date of incident",
+     "text": "Date of incident: 17/08/2025"
+    },
+    {
+     "type": "field",
+     "label": "Port of treatment",
+     "text": "Port of treatment: Pellow Point"
+    },
+    {
+     "type": "field",
+     "label": "Amount claimed (USD)",
+     "text": "Amount claimed (USD): 17,075"
+    },
+    {
+     "type": "field",
+     "label": "Treating clinic",
+     "text": "Treating clinic: Mariners Clinic"
+    },
+    {
+     "type": "field",
+     "label": "Days off duty",
+     "text": "Days off duty: 69"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section B — Treatment type"
+    },
+    {
+     "type": "checkbox",
+     "label": "Hospitalisation",
+     "checked": true,
+     "text": "Hospitalisation"
+    },
+    {
+     "type": "checkbox",
+     "label": "Outpatient",
+     "checked": false,
+     "text": "Outpatient"
+    },
+    {
+     "type": "checkbox",
+     "label": "Dental",
+     "checked": false,
+     "text": "Dental"
+    },
+    {
+     "type": "checkbox",
+     "label": "Optical",
+     "checked": false,
+     "text": "Optical"
+    },
+    {
+     "type": "checkbox",
+     "label": "Physiotherapy",
+     "checked": false,
+     "text": "Physiotherapy"
+    },
+    {
+     "type": "checkbox",
+     "label": "Repatriation",
+     "checked": false,
+     "text": "Repatriation"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section C — Declaration"
+    },
+    {
+     "type": "para",
+     "text": "I declare that the information given is true and complete, and I authorise the Fund to contact the treating clinic to verify this claim."
+    }
+   ],
+   "furniture": [
+    "CWF-MC v3 · Page 11"
+   ],
+   "fields": [
+    {
+     "label": "Claimant name",
+     "value": "Helena Esterhazy"
+    },
+    {
+     "label": "Rank",
+     "value": "Third Engineer"
+    },
+    {
+     "label": "Vessel",
+     "value": "Silver Puffin"
+    },
+    {
+     "label": "Date of incident",
+     "value": "17/08/2025"
+    },
+    {
+     "label": "Port of treatment",
+     "value": "Pellow Point"
+    },
+    {
+     "label": "Amount claimed (USD)",
+     "value": "17,075"
+    },
+    {
+     "label": "Treating clinic",
+     "value": "Mariners Clinic"
+    },
+    {
+     "label": "Days off duty",
+     "value": "69"
+    }
+   ],
+   "checkboxes": [
+    {
+     "label": "Hospitalisation",
+     "checked": true
+    },
+    {
+     "label": "Outpatient",
+     "checked": false
+    },
+    {
+     "label": "Dental",
+     "checked": false
+    },
+    {
+     "label": "Optical",
+     "checked": false
+    },
+    {
+     "label": "Physiotherapy",
+     "checked": false
+    },
+    {
+     "label": "Repatriation",
+     "checked": false
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 1,
+     "text": "Corvane Crew Welfare Fund — Medical Claim Form"
+    },
+    {
+     "type": "para",
+     "text": "Claim reference: CW-95889"
+    },
+    {
+     "type": "para",
+     "text": "Complete all sections. Tick every treatment type that applies. Attach receipts for amounts over USD 200."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section A — Claimant details"
+    },
+    {
+     "type": "field",
+     "label": "Claimant name",
+     "text": "Claimant name: Celeste Petrov"
+    },
+    {
+     "type": "field",
+     "label": "Rank",
+     "text": "Rank: Third Engineer"
+    },
+    {
+     "type": "field",
+     "label": "Vessel",
+     "text": "Vessel: Ivory Shearwater"
+    },
+    {
+     "type": "field",
+     "label": "Date of incident",
+     "text": "Date of incident: 15/05/2025"
+    },
+    {
+     "type": "field",
+     "label": "Port of treatment",
+     "text": "Port of treatment: Garrow Sound"
+    },
+    {
+     "type": "field",
+     "label": "Amount claimed (USD)",
+     "text": "Amount claimed (USD): 11,708"
+    },
+    {
+     "type": "field",
+     "label": "Treating clinic",
+     "text": "Treating clinic: Harbour Hospital"
+    },
+    {
+     "type": "field",
+     "label": "Days off duty",
+     "text": "Days off duty: 14"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section B — Treatment type"
+    },
+    {
+     "type": "checkbox",
+     "label": "Hospitalisation",
+     "checked": false,
+     "text": "Hospitalisation"
+    },
+    {
+     "type": "checkbox",
+     "label": "Outpatient",
+     "checked": false,
+     "text": "Outpatient"
+    },
+    {
+     "type": "checkbox",
+     "label": "Dental",
+     "checked": false,
+     "text": "Dental"
+    },
+    {
+     "type": "checkbox",
+     "label": "Optical",
+     "checked": false,
+     "text": "Optical"
+    },
+    {
+     "type": "checkbox",
+     "label": "Physiotherapy",
+     "checked": false,
+     "text": "Physiotherapy"
+    },
+    {
+     "type": "checkbox",
+     "label": "Repatriation",
+     "checked": true,
+     "text": "Repatriation"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section C — Declaration"
+    },
+    {
+     "type": "para",
+     "text": "I declare that the information given is true and complete, and I authorise the Fund to contact the treating clinic to verify this claim."
+    }
+   ],
+   "furniture": [
+    "CWF-MC v3 · Page 12"
+   ],
+   "fields": [
+    {
+     "label": "Claimant name",
+     "value": "Celeste Petrov"
+    },
+    {
+     "label": "Rank",
+     "value": "Third Engineer"
+    },
+    {
+     "label": "Vessel",
+     "value": "Ivory Shearwater"
+    },
+    {
+     "label": "Date of incident",
+     "value": "15/05/2025"
+    },
+    {
+     "label": "Port of treatment",
+     "value": "Garrow Sound"
+    },
+    {
+     "label": "Amount claimed (USD)",
+     "value": "11,708"
+    },
+    {
+     "label": "Treating clinic",
+     "value": "Harbour Hospital"
+    },
+    {
+     "label": "Days off duty",
+     "value": "14"
+    }
+   ],
+   "checkboxes": [
+    {
+     "label": "Hospitalisation",
+     "checked": false
+    },
+    {
+     "label": "Outpatient",
+     "checked": false
+    },
+    {
+     "label": "Dental",
+     "checked": false
+    },
+    {
+     "label": "Optical",
+     "checked": false
+    },
+    {
+     "label": "Physiotherapy",
+     "checked": false
+    },
+    {
+     "label": "Repatriation",
+     "checked": true
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 1,
+     "text": "Corvane Crew Welfare Fund — Medical Claim Form"
+    },
+    {
+     "type": "para",
+     "text": "Claim reference: CW-77123"
+    },
+    {
+     "type": "para",
+     "text": "Complete all sections. Tick every treatment type that applies. Attach receipts for amounts over USD 200."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section A — Claimant details"
+    },
+    {
+     "type": "field",
+     "label": "Claimant name",
+     "text": "Claimant name: Celeste Holloway"
+    },
+    {
+     "type": "field",
+     "label": "Rank",
+     "text": "Rank: Able Seaman"
+    },
+    {
+     "type": "field",
+     "label": "Vessel",
+     "text": "Vessel: Linden Skua"
+    },
+    {
+     "type": "field",
+     "label": "Date of incident",
+     "text": "Date of incident: 08/12/2025"
+    },
+    {
+     "type": "field",
+     "label": "Port of treatment",
+     "text": "Port of treatment: Morvane Sound"
+    },
+    {
+     "type": "field",
+     "label": "Amount claimed (USD)",
+     "text": "Amount claimed (USD): 17,331"
+    },
+    {
+     "type": "field",
+     "label": "Treating clinic",
+     "text": "Treating clinic: Harbour Hospital"
+    },
+    {
+     "type": "field",
+     "label": "Days off duty",
+     "text": "Days off duty: 24"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section B — Treatment type"
+    },
+    {
+     "type": "checkbox",
+     "label": "Hospitalisation",
+     "checked": true,
+     "text": "Hospitalisation"
+    },
+    {
+     "type": "checkbox",
+     "label": "Outpatient",
+     "checked": false,
+     "text": "Outpatient"
+    },
+    {
+     "type": "checkbox",
+     "label": "Dental",
+     "checked": true,
+     "text": "Dental"
+    },
+    {
+     "type": "checkbox",
+     "label": "Optical",
+     "checked": false,
+     "text": "Optical"
+    },
+    {
+     "type": "checkbox",
+     "label": "Physiotherapy",
+     "checked": false,
+     "text": "Physiotherapy"
+    },
+    {
+     "type": "checkbox",
+     "label": "Repatriation",
+     "checked": true,
+     "text": "Repatriation"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section C — Declaration"
+    },
+    {
+     "type": "para",
+     "text": "I declare that the information given is true and complete, and I authorise the Fund to contact the treating clinic to verify this claim."
+    }
+   ],
+   "furniture": [
+    "CWF-MC v3 · Page 13"
+   ],
+   "fields": [
+    {
+     "label": "Claimant name",
+     "value": "Celeste Holloway"
+    },
+    {
+     "label": "Rank",
+     "value": "Able Seaman"
+    },
+    {
+     "label": "Vessel",
+     "value": "Linden Skua"
+    },
+    {
+     "label": "Date of incident",
+     "value": "08/12/2025"
+    },
+    {
+     "label": "Port of treatment",
+     "value": "Morvane Sound"
+    },
+    {
+     "label": "Amount claimed (USD)",
+     "value": "17,331"
+    },
+    {
+     "label": "Treating clinic",
+     "value": "Harbour Hospital"
+    },
+    {
+     "label": "Days off duty",
+     "value": "24"
+    }
+   ],
+   "checkboxes": [
+    {
+     "label": "Hospitalisation",
+     "checked": true
+    },
+    {
+     "label": "Outpatient",
+     "checked": false
+    },
+    {
+     "label": "Dental",
+     "checked": true
+    },
+    {
+     "label": "Optical",
+     "checked": false
+    },
+    {
+     "label": "Physiotherapy",
+     "checked": false
+    },
+    {
+     "label": "Repatriation",
+     "checked": true
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 1,
+     "text": "Corvane Crew Welfare Fund — Medical Claim Form"
+    },
+    {
+     "type": "para",
+     "text": "Claim reference: CW-15867"
+    },
+    {
+     "type": "para",
+     "text": "Complete all sections. Tick every treatment type that applies. Attach receipts for amounts over USD 200."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section A — Claimant details"
+    },
+    {
+     "type": "field",
+     "label": "Claimant name",
+     "text": "Claimant name: Viktor Achterberg"
+    },
+    {
+     "type": "field",
+     "label": "Rank",
+     "text": "Rank: Third Engineer"
+    },
+    {
+     "type": "field",
+     "label": "Vessel",
+     "text": "Vessel: Juniper Grebe"
+    },
+    {
+     "type": "field",
+     "label": "Date of incident",
+     "text": "Date of incident: 27/01/2025"
+    },
+    {
+     "type": "field",
+     "label": "Port of treatment",
+     "text": "Port of treatment: Morvane Quay"
+    },
+    {
+     "type": "field",
+     "label": "Amount claimed (USD)",
+     "text": "Amount claimed (USD): 13,798"
+    },
+    {
+     "type": "field",
+     "label": "Treating clinic",
+     "text": "Treating clinic: Harbour Medical Centre"
+    },
+    {
+     "type": "field",
+     "label": "Days off duty",
+     "text": "Days off duty: 23"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section B — Treatment type"
+    },
+    {
+     "type": "checkbox",
+     "label": "Hospitalisation",
+     "checked": false,
+     "text": "Hospitalisation"
+    },
+    {
+     "type": "checkbox",
+     "label": "Outpatient",
+     "checked": false,
+     "text": "Outpatient"
+    },
+    {
+     "type": "checkbox",
+     "label": "Dental",
+     "checked": true,
+     "text": "Dental"
+    },
+    {
+     "type": "checkbox",
+     "label": "Optical",
+     "checked": true,
+     "text": "Optical"
+    },
+    {
+     "type": "checkbox",
+     "label": "Physiotherapy",
+     "checked": false,
+     "text": "Physiotherapy"
+    },
+    {
+     "type": "checkbox",
+     "label": "Repatriation",
+     "checked": true,
+     "text": "Repatriation"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section C — Declaration"
+    },
+    {
+     "type": "para",
+     "text": "I declare that the information given is true and complete, and I authorise the Fund to contact the treating clinic to verify this claim."
+    }
+   ],
+   "furniture": [
+    "CWF-MC v3 · Page 14"
+   ],
+   "fields": [
+    {
+     "label": "Claimant name",
+     "value": "Viktor Achterberg"
+    },
+    {
+     "label": "Rank",
+     "value": "Third Engineer"
+    },
+    {
+     "label": "Vessel",
+     "value": "Juniper Grebe"
+    },
+    {
+     "label": "Date of incident",
+     "value": "27/01/2025"
+    },
+    {
+     "label": "Port of treatment",
+     "value": "Morvane Quay"
+    },
+    {
+     "label": "Amount claimed (USD)",
+     "value": "13,798"
+    },
+    {
+     "label": "Treating clinic",
+     "value": "Harbour Medical Centre"
+    },
+    {
+     "label": "Days off duty",
+     "value": "23"
+    }
+   ],
+   "checkboxes": [
+    {
+     "label": "Hospitalisation",
+     "checked": false
+    },
+    {
+     "label": "Outpatient",
+     "checked": false
+    },
+    {
+     "label": "Dental",
+     "checked": true
+    },
+    {
+     "label": "Optical",
+     "checked": true
+    },
+    {
+     "label": "Physiotherapy",
+     "checked": false
+    },
+    {
+     "label": "Repatriation",
+     "checked": true
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 1,
+     "text": "Corvane Crew Welfare Fund — Medical Claim Form"
+    },
+    {
+     "type": "para",
+     "text": "Claim reference: CW-39950"
+    },
+    {
+     "type": "para",
+     "text": "Complete all sections. Tick every treatment type that applies. Attach receipts for amounts over USD 200."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section A — Claimant details"
+    },
+    {
+     "type": "field",
+     "label": "Claimant name",
+     "text": "Claimant name: Lucan Ingersoll"
+    },
+    {
+     "type": "field",
+     "label": "Rank",
+     "text": "Rank: Third Engineer"
+    },
+    {
+     "type": "field",
+     "label": "Vessel",
+     "text": "Vessel: Willow Petrel"
+    },
+    {
+     "type": "field",
+     "label": "Date of incident",
+     "text": "Date of incident: 03/08/2025"
+    },
+    {
+     "type": "field",
+     "label": "Port of treatment",
+     "text": "Port of treatment: Tavish Reach"
+    },
+    {
+     "type": "field",
+     "label": "Amount claimed (USD)",
+     "text": "Amount claimed (USD): 2,269"
+    },
+    {
+     "type": "field",
+     "label": "Treating clinic",
+     "text": "Treating clinic: Seaview Clinic"
+    },
+    {
+     "type": "field",
+     "label": "Days off duty",
+     "text": "Days off duty: 25"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section B — Treatment type"
+    },
+    {
+     "type": "checkbox",
+     "label": "Hospitalisation",
+     "checked": false,
+     "text": "Hospitalisation"
+    },
+    {
+     "type": "checkbox",
+     "label": "Outpatient",
+     "checked": false,
+     "text": "Outpatient"
+    },
+    {
+     "type": "checkbox",
+     "label": "Dental",
+     "checked": true,
+     "text": "Dental"
+    },
+    {
+     "type": "checkbox",
+     "label": "Optical",
+     "checked": true,
+     "text": "Optical"
+    },
+    {
+     "type": "checkbox",
+     "label": "Physiotherapy",
+     "checked": false,
+     "text": "Physiotherapy"
+    },
+    {
+     "type": "checkbox",
+     "label": "Repatriation",
+     "checked": false,
+     "text": "Repatriation"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section C — Declaration"
+    },
+    {
+     "type": "para",
+     "text": "I declare that the information given is true and complete, and I authorise the Fund to contact the treating clinic to verify this claim."
+    }
+   ],
+   "furniture": [
+    "CWF-MC v3 · Page 15"
+   ],
+   "fields": [
+    {
+     "label": "Claimant name",
+     "value": "Lucan Ingersoll"
+    },
+    {
+     "label": "Rank",
+     "value": "Third Engineer"
+    },
+    {
+     "label": "Vessel",
+     "value": "Willow Petrel"
+    },
+    {
+     "label": "Date of incident",
+     "value": "03/08/2025"
+    },
+    {
+     "label": "Port of treatment",
+     "value": "Tavish Reach"
+    },
+    {
+     "label": "Amount claimed (USD)",
+     "value": "2,269"
+    },
+    {
+     "label": "Treating clinic",
+     "value": "Seaview Clinic"
+    },
+    {
+     "label": "Days off duty",
+     "value": "25"
+    }
+   ],
+   "checkboxes": [
+    {
+     "label": "Hospitalisation",
+     "checked": false
+    },
+    {
+     "label": "Outpatient",
+     "checked": false
+    },
+    {
+     "label": "Dental",
+     "checked": true
+    },
+    {
+     "label": "Optical",
+     "checked": true
+    },
+    {
+     "label": "Physiotherapy",
+     "checked": false
+    },
+    {
+     "label": "Repatriation",
+     "checked": false
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 1,
+     "text": "Corvane Crew Welfare Fund — Medical Claim Form"
+    },
+    {
+     "type": "para",
+     "text": "Claim reference: CW-41109"
+    },
+    {
+     "type": "para",
+     "text": "Complete all sections. Tick every treatment type that applies. Attach receipts for amounts over USD 200."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section A — Claimant details"
+    },
+    {
+     "type": "field",
+     "label": "Claimant name",
+     "text": "Claimant name: Amara Esterhazy"
+    },
+    {
+     "type": "field",
+     "label": "Rank",
+     "text": "Rank: Bosun"
+    },
+    {
+     "type": "field",
+     "label": "Vessel",
+     "text": "Vessel: Linden Plover"
+    },
+    {
+     "type": "field",
+     "label": "Date of incident",
+     "text": "Date of incident: 06/08/2025"
+    },
+    {
+     "type": "field",
+     "label": "Port of treatment",
+     "text": "Port of treatment: Kelmscar"
+    },
+    {
+     "type": "field",
+     "label": "Amount claimed (USD)",
+     "text": "Amount claimed (USD): 10,973"
+    },
+    {
+     "type": "field",
+     "label": "Treating clinic",
+     "text": "Treating clinic: Bayside Hospital"
+    },
+    {
+     "type": "field",
+     "label": "Days off duty",
+     "text": "Days off duty: 21"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section B — Treatment type"
+    },
+    {
+     "type": "checkbox",
+     "label": "Hospitalisation",
+     "checked": true,
+     "text": "Hospitalisation"
+    },
+    {
+     "type": "checkbox",
+     "label": "Outpatient",
+     "checked": false,
+     "text": "Outpatient"
+    },
+    {
+     "type": "checkbox",
+     "label": "Dental",
+     "checked": false,
+     "text": "Dental"
+    },
+    {
+     "type": "checkbox",
+     "label": "Optical",
+     "checked": false,
+     "text": "Optical"
+    },
+    {
+     "type": "checkbox",
+     "label": "Physiotherapy",
+     "checked": true,
+     "text": "Physiotherapy"
+    },
+    {
+     "type": "checkbox",
+     "label": "Repatriation",
+     "checked": false,
+     "text": "Repatriation"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Section C — Declaration"
+    },
+    {
+     "type": "para",
+     "text": "I declare that the information given is true and complete, and I authorise the Fund to contact the treating clinic to verify this claim."
+    }
+   ],
+   "furniture": [
+    "CWF-MC v3 · Page 16"
+   ],
+   "fields": [
+    {
+     "label": "Claimant name",
+     "value": "Amara Esterhazy"
+    },
+    {
+     "label": "Rank",
+     "value": "Bosun"
+    },
+    {
+     "label": "Vessel",
+     "value": "Linden Plover"
+    },
+    {
+     "label": "Date of incident",
+     "value": "06/08/2025"
+    },
+    {
+     "label": "Port of treatment",
+     "value": "Kelmscar"
+    },
+    {
+     "label": "Amount claimed (USD)",
+     "value": "10,973"
+    },
+    {
+     "label": "Treating clinic",
+     "value": "Bayside Hospital"
+    },
+    {
+     "label": "Days off duty",
+     "value": "21"
+    }
+   ],
+   "checkboxes": [
+    {
+     "label": "Hospitalisation",
+     "checked": true
+    },
+    {
+     "label": "Outpatient",
+     "checked": false
+    },
+    {
+     "label": "Dental",
+     "checked": false
+    },
+    {
+     "label": "Optical",
+     "checked": false
+    },
+    {
+     "label": "Physiotherapy",
+     "checked": true
+    },
+    {
+     "label": "Repatriation",
+     "checked": false
+    }
+   ]
+  }
+ ],
+ "handwritten_pages": [
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ]
+}

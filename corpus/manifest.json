@@ -1,0 +1,118 @@
+{
+ "seed": 20261121,
+ "documents": [
+  {
+   "doc": "report",
+   "pages": 122,
+   "pdf": "pdf/report.pdf",
+   "category": "report"
+  },
+  {
+   "doc": "bulletin",
+   "pages": 9,
+   "pdf": "pdf/bulletin.pdf",
+   "category": "multicolumn"
+  },
+  {
+   "doc": "maths",
+   "pages": 5,
+   "pdf": "pdf/maths.pdf",
+   "category": "maths"
+  },
+  {
+   "doc": "zh_report",
+   "pages": 4,
+   "pdf": "pdf/zh_report.pdf",
+   "category": "chinese"
+  },
+  {
+   "doc": "vi_report",
+   "pages": 4,
+   "pdf": "pdf/vi_report.pdf",
+   "category": "vietnamese"
+  },
+  {
+   "doc": "forms",
+   "pages": 16,
+   "pdf": "pdf/forms.pdf",
+   "category": "forms"
+  },
+  {
+   "doc": "twin_clean",
+   "pages": 20,
+   "pdf": "pdf/twin_clean.pdf",
+   "category": "twin_clean"
+  },
+  {
+   "doc": "scan_skew",
+   "pages": 20,
+   "pdf": "pdf/scan_skew.pdf",
+   "category": "scan"
+  },
+  {
+   "doc": "scan_blur",
+   "pages": 20,
+   "pdf": "pdf/scan_blur.pdf",
+   "category": "scan"
+  },
+  {
+   "doc": "scan_jpeg",
+   "pages": 20,
+   "pdf": "pdf/scan_jpeg.pdf",
+   "category": "scan"
+  },
+  {
+   "doc": "scan_photo",
+   "pages": 20,
+   "pdf": "pdf/scan_photo.pdf",
+   "category": "scan"
+  }
+ ],
+ "total_pages": 260,
+ "questions": 237,
+ "pilot": {
+  "report": [
+   1,
+   3,
+   46,
+   47,
+   95
+  ],
+  "bulletin": [
+   2
+  ],
+  "maths": [
+   2
+  ],
+  "zh_report": [
+   2
+  ],
+  "vi_report": [
+   2
+  ],
+  "forms": [
+   3,
+   14
+  ],
+  "twin_clean": [
+   9,
+   15
+  ],
+  "scan_skew": [
+   9,
+   15
+  ],
+  "scan_blur": [
+   9,
+   15
+  ],
+  "scan_jpeg": [
+   9,
+   15
+  ],
+  "scan_photo": [
+   9,
+   15
+  ]
+ }
+}

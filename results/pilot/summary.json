@@ -1,0 +1,128 @@
+{
+ "pypdf": {
+  "parse": {
+   "text_sim_window": 0.8166873745894055,
+   "text_sim": 0.6125106971394862,
+   "order": 0.6137566137566137,
+   "teds": 0.0,
+   "cell_recall": 0.5555555555555556,
+   "fields": 0.39285714285714285,
+   "boxes": 0.0,
+   "silent_empty": 8,
+   "pages": 21,
+   "s_per_page": 0.10095238095238096,
+   "peak_rss_mb": 98.6,
+   "failed_jobs": 0
+  },
+  "public": {
+   "public_tables": 0.0,
+   "public_multi_column": 0.0,
+   "public_old_scans": 0.2
+  }
+ },
+ "pdfplumber": {
+  "parse": {
+   "text_sim_window": 0.7217541897341716,
+   "text_sim": 0.5779370380094042,
+   "order": 0.5695389266817839,
+   "teds": 0.0,
+   "cell_recall": 0.5555555555555556,
+   "fields": 0.39285714285714285,
+   "boxes": 0.0,
+   "silent_empty": 8,
+   "pages": 21,
+   "s_per_page": 0.07523809523809524,
+   "peak_rss_mb": 86.0,
+   "failed_jobs": 0
+  },
+  "public": {
+   "public_tables": 0.0,
+   "public_multi_column": 0.0,
+   "public_old_scans": 0.2
+  }
+ },
+ "pymupdf4llm": {
+  "parse": {
+   "text_sim_window": 0.9608266506849451,
+   "text_sim": 0.936325436761426,
+   "order": 0.9436885865457294,
+   "teds": 0.8188315746287006,
+   "cell_recall": 0.904320987654321,
+   "fields": 0.8928571428571429,
+   "boxes": 0.09523809523809523,
+   "silent_empty": 0,
+   "pages": 21,
+   "s_per_page": 0.6042857142857143,
+   "peak_rss_mb": 527.5,
+   "failed_jobs": 0
+  },
+  "public": {
+   "public_tables": 0.0,
+   "public_multi_column": 0.0,
+   "public_old_scans": 0.2
+  }
+ },
+ "ocrmypdf": {
+  "parse": {
+   "text_sim_window": 0.9658055413893422,
+   "text_sim": 0.9322082709658319,
+   "order": 0.9216931216931217,
+   "teds": 0.0,
+   "cell_recall": 0.967948717948718,
+   "fields": 0.9821428571428571,
+   "boxes": 0.07142857142857142,
+   "silent_empty": 0,
+   "pages": 21,
+   "s_per_page": 1.500952380952381,
+   "peak_rss_mb": 92.0,
+   "failed_jobs": 0
+  },
+  "public": {
+   "public_tables": 0.0,
+   "public_multi_column": 0.0,
+   "public_old_scans": 0.2
+  }
+ },
+ "docling": {
+  "parse": {
+   "text_sim_window": 0.8863358403162369,
+   "text_sim": 0.6888606995530172,
+   "order": 0.798941798941799,
+   "teds": 0.9485090711763563,
+   "cell_recall": 0.9876543209876544,
+   "fields": 0.5357142857142857,
+   "boxes": 0.5714285714285714,
+   "silent_empty": 2,
+   "pages": 21,
+   "s_per_page": 5.827142857142857,
+   "peak_rss_mb": 3489.4,
+   "failed_jobs": 1
+  },
+  "public": {
+   "public_tables": 0.0,
+   "public_multi_column": 0.0,
+   "public_old_scans": 0.2
+  }
+ },
+ "docling_granite": {
+  "parse": {
+   "text_sim_window": 0.9776042725805693,
+   "text_sim": 0.9668371073592278,
+   "order": 0.965432098765432,
+   "teds": 1.0,
+   "cell_recall": 1.0,
+   "fields": null,
+   "boxes": null,
+   "silent_empty": 0,
+   "pages": 9,
+   "s_per_page": 12.25,
+   "peak_rss_mb": 3103.3,
+   "failed_jobs": 0
+  },
+  "public": {
+   "public_tables": 0.0,
+   "public_multi_column": 0.0,
+   "public_old_scans": 0.2
+  }
+ }
+}

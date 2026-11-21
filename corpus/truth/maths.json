@@ -1,0 +1,196 @@
+{
+ "doc": "maths",
+ "category": "maths",
+ "pages": [
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 1,
+     "text": "Engineering Note EN-12: Hull resistance, power and fuel"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "1. Frictional resistance"
+    },
+    {
+     "type": "para",
+     "text": "Regulatory changes on emissions reporting required new procedures for collecting voyage data from every vessel. Management continued to focus on reliability, cost discipline and the safety of crews across the network."
+    },
+    {
+     "type": "para",
+     "text": "R_F = ½ · ρ · V² · S · C_F"
+    },
+    {
+     "type": "para",
+     "text": "Health and wellbeing support for crews was extended to cover families ashore through a confidential helpline."
+    },
+    {
+     "type": "para",
+     "text": "C_F = 0.075 / (log₁₀ Re − 2)²"
+    },
+    {
+     "type": "para",
+     "text": "Worked example 1: applying the relation above to Vesper Heron at service speed gives a result of 91,035 units, which is used as the reference value for the sea trial comparison."
+    },
+    {
+     "type": "para",
+     "text": "Health and wellbeing support for crews was extended to cover families ashore through a confidential helpline. Risk assessments were refreshed for routes affected by weather volatility and shifting security conditions. Regulatory changes on emissions reporting required new procedures for collecting voyage data from every vessel. Working capital was managed closely, with receivable days kept within the range agreed with lenders. Training hours per seafarer increased, supported by new simulator capacity at the regional academy. The procurement team consolidated suppliers for spare parts, which shortened average lead times. Management continued to focus on reliability, cost discipline and the safety of crews across the network. Terminal productivity, measured in moves per crane hour, improved at most sites compared with the prior period. Planning assumptions for the next period include stable demand in the North Atlantic trades and moderate cost inflation."
+    }
+   ],
+   "furniture": [
+    "Engineering Note EN-12: Resistance and Power",
+    "1"
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "2. Effective power"
+    },
+    {
+     "type": "para",
+     "text": "Regulatory changes on emissions reporting required new procedures for collecting voyage data from every vessel. Insurance costs rose modestly in line with the wider market and reflected a higher assessed value of the fleet."
+    },
+    {
+     "type": "para",
+     "text": "P_E = R_T · V"
+    },
+    {
+     "type": "para",
+     "text": "Cybersecurity exercises were run with external specialists and covered both shipboard and shore systems."
+    },
+    {
+     "type": "para",
+     "text": "P_B = P_E / (η_H · η_O · η_R · η_S)"
+    },
+    {
+     "type": "para",
+     "text": "Worked example 2: applying the relation above to Silver Heron at service speed gives a result of 76,080 units, which is used as the reference value for the sea trial comparison."
+    },
+    {
+     "type": "para",
+     "text": "Several older vessels were placed on longer-term charters rather than sold, preserving optionality on capacity. Management continued to focus on reliability, cost discipline and the safety of crews across the network. Maintenance windows were scheduled to avoid the busiest trading months wherever operationally possible. The board monitored progress on these measures at each scheduled meeting and requested further detail where needed. Maintenance windows were scheduled to avoid the busiest trading months wherever operationally possible. Insurance costs rose modestly in line with the wider market and reflected a higher assessed value of the fleet."
+    }
+   ],
+   "furniture": [
+    "Engineering Note EN-12: Resistance and Power",
+    "2"
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "3. Admiralty coefficient"
+    },
+    {
+     "type": "para",
+     "text": "The board monitored progress on these measures at each scheduled meeting and requested further detail where needed. Management continued to focus on reliability, cost discipline and the safety of crews across the network."
+    },
+    {
+     "type": "para",
+     "text": "C_adm = Δ^(2/3) · V³ / P"
+    },
+    {
+     "type": "para",
+     "text": "Risk assessments were refreshed for routes affected by weather volatility and shifting security conditions."
+    },
+    {
+     "type": "para",
+     "text": "P₂ = P₁ · (V₂ / V₁)³"
+    },
+    {
+     "type": "para",
+     "text": "Worked example 3: applying the relation above to Zephyr Grebe at service speed gives a result of 26,486 units, which is used as the reference value for the sea trial comparison."
+    },
+    {
+     "type": "para",
+     "text": "Investment decisions were reviewed by the capital committee against a hurdle rate set at the start of the period. Cybersecurity exercises were run with external specialists and covered both shipboard and shore systems. Port congestion eased in the second half, although berth waiting times at peak weeks were still above target. Fuel efficiency gains came mainly from hull cleaning, trim optimisation and slower steaming on long routes. Health and wellbeing support for crews was extended to cover families ashore through a confidential helpline. Investment decisions were reviewed by the capital committee against a hurdle rate set at the start of the period. Fuel efficiency gains came mainly from hull cleaning, trim optimisation and slower steaming on long routes. Risk assessments were refreshed for routes affected by weather volatility and shifting security conditions. Lessons from incidents were shared across the fleet through monthly safety bulletins and toolbox talks."
+    }
+   ],
+   "furniture": [
+    "Engineering Note EN-12: Resistance and Power",
+    "3"
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "4. Fuel consumption"
+    },
+    {
+     "type": "para",
+     "text": "Regulatory changes on emissions reporting required new procedures for collecting voyage data from every vessel. The group kept its dividend policy unchanged and maintained headroom under all banking covenants."
+    },
+    {
+     "type": "para",
+     "text": "FC = SFOC · P_B · t / 10⁶"
+    },
+    {
+     "type": "para",
+     "text": "Planning assumptions for the next period include stable demand in the Baltic trades and moderate cost inflation."
+    },
+    {
+     "type": "para",
+     "text": "CO₂ = 3.114 · FC"
+    },
+    {
+     "type": "para",
+     "text": "Worked example 4: applying the relation above to Cobalt Kittiwake at service speed gives a result of 80,913 units, which is used as the reference value for the sea trial comparison."
+    },
+    {
+     "type": "para",
+     "text": "The group kept its dividend policy unchanged and maintained headroom under all banking covenants. Training hours per seafarer increased, supported by new simulator capacity at the regional academy. Working capital was managed closely, with receivable days kept within the range agreed with lenders. Several older vessels were placed on longer-term charters rather than sold, preserving optionality on capacity. Training hours per seafarer increased, supported by new simulator capacity at the regional academy. Working capital was managed closely, with receivable days kept within the range agreed with lenders. Shore power connections were tested at two terminals, and results will inform a wider roll-out decision."
+    }
+   ],
+   "furniture": [
+    "Engineering Note EN-12: Resistance and Power",
+    "4"
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "5. Froude number"
+    },
+    {
+     "type": "para",
+     "text": "Contract renewals with the largest shippers were completed on terms broadly similar to the prior year. Cybersecurity exercises were run with external specialists and covered both shipboard and shore systems."
+    },
+    {
+     "type": "para",
+     "text": "Fn = V / √(g · L)"
+    },
+    {
+     "type": "para",
+     "text": "Training hours per seafarer increased, supported by new simulator capacity at the regional academy."
+    },
+    {
+     "type": "para",
+     "text": "Re = V · L / ν"
+    },
+    {
+     "type": "para",
+     "text": "Worked example 5: applying the relation above to Northern Gannet at service speed gives a result of 86,661 units, which is used as the reference value for the sea trial comparison."
+    },
+    {
+     "type": "para",
+     "text": "Investment decisions were reviewed by the capital committee against a hurdle rate set at the start of the period. The North Atlantic market remained competitive, with freight rates moving within a narrow band for most of the year. The Gulf market remained competitive, with freight rates moving within a narrow band for most of the year. Training hours per seafarer increased, supported by new simulator capacity at the regional academy. Investment decisions were reviewed by the capital committee against a hurdle rate set at the start of the period. Regulatory changes on emissions reporting required new procedures for collecting voyage data from every vessel. Shore power connections were tested at two terminals, and results will inform a wider roll-out decision. The board monitored progress on these measures at each scheduled meeting and requested further detail where needed."
+    }
+   ],
+   "furniture": [
+    "Engineering Note EN-12: Resistance and Power",
+    "5"
+   ]
+  }
+ ]
+}
