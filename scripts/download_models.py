@@ -10,7 +10,7 @@ MODELS = [
 ]
 for m in MODELS:
     try:
-        p = snapshot_download(m, allow_patterns=None if m != "BAAI/bge-m3" else ["*.json", "*.safetensors", "*.txt", "sentencepiece*", "tokenizer*", "1_Pooling/*", "modules.json"])
+        p = snapshot_download(m, allow_patterns=None if m != "BAAI/bge-m3" else ["*.json", "*.safetensors", "pytorch_model.bin", "*.txt", "sentencepiece*", "tokenizer*", "1_Pooling/*", "modules.json"])
         print("OK", m, p, flush=True)
     except Exception as e:
         print("FAIL", m, e, flush=True)

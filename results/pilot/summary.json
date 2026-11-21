@@ -10,13 +10,35 @@
    "boxes": 0.0,
    "silent_empty": 8,
    "pages": 21,
-   "s_per_page": 0.10095238095238096,
+   "s_per_page": 0.12041666666666667,
    "peak_rss_mb": 98.6,
    "failed_jobs": 0
   },
+  "rag": {
+   "fixed": {
+    "n": 72,
+    "preserved": 0.6923076923076923,
+    "recall5": 0.6923076923076923,
+    "accuracy": 0.5833333333333334,
+    "tables": 0.8,
+    "scans": 0.16666666666666666,
+    "forms": 0.8571428571428571,
+    "text": 1.0
+   },
+   "structure": {
+    "n": 72,
+    "preserved": 0.6923076923076923,
+    "recall5": 0.6923076923076923,
+    "accuracy": 0.6111111111111112,
+    "tables": 0.95,
+    "scans": 0.16666666666666666,
+    "forms": 0.7142857142857143,
+    "text": 1.0
+   }
+  },
   "public": {
    "public_tables": 0.0,
-   "public_multi_column": 0.0,
+   "public_multi_column": 0.4,
    "public_old_scans": 0.2
   }
  },
@@ -31,13 +53,35 @@
    "boxes": 0.0,
    "silent_empty": 8,
    "pages": 21,
-   "s_per_page": 0.07523809523809524,
+   "s_per_page": 0.08541666666666665,
    "peak_rss_mb": 86.0,
    "failed_jobs": 0
   },
+  "rag": {
+   "fixed": {
+    "n": 72,
+    "preserved": 0.6923076923076923,
+    "recall5": 0.6923076923076923,
+    "accuracy": 0.5138888888888888,
+    "tables": 0.65,
+    "scans": 0.16666666666666666,
+    "forms": 0.8571428571428571,
+    "text": 0.8666666666666667
+   },
+   "structure": {
+    "n": 72,
+    "preserved": 0.6923076923076923,
+    "recall5": 0.6923076923076923,
+    "accuracy": 0.6111111111111112,
+    "tables": 1.0,
+    "scans": 0.16666666666666666,
+    "forms": 0.7142857142857143,
+    "text": 0.9333333333333333
+   }
+  },
   "public": {
-   "public_tables": 0.0,
-   "public_multi_column": 0.0,
+   "public_tables": 0.7142857142857143,
+   "public_multi_column": 0.2,
    "public_old_scans": 0.2
   }
  },
@@ -52,13 +96,35 @@
    "boxes": 0.09523809523809523,
    "silent_empty": 0,
    "pages": 21,
-   "s_per_page": 0.6042857142857143,
+   "s_per_page": 0.6670833333333334,
    "peak_rss_mb": 527.5,
    "failed_jobs": 0
   },
+  "rag": {
+   "fixed": {
+    "n": 72,
+    "preserved": 0.9846153846153847,
+    "recall5": 0.9538461538461539,
+    "accuracy": 0.7222222222222222,
+    "tables": 0.9,
+    "scans": 0.4666666666666667,
+    "forms": 0.8571428571428571,
+    "text": 0.9333333333333333
+   },
+   "structure": {
+    "n": 72,
+    "preserved": 0.9846153846153847,
+    "recall5": 0.9846153846153847,
+    "accuracy": 0.7083333333333334,
+    "tables": 0.95,
+    "scans": 0.5,
+    "forms": 0.42857142857142855,
+    "text": 0.9333333333333333
+   }
+  },
   "public": {
-   "public_tables": 0.0,
-   "public_multi_column": 0.0,
+   "public_tables": 0.7142857142857143,
+   "public_multi_column": 1.0,
    "public_old_scans": 0.2
   }
  },
@@ -73,56 +139,509 @@
    "boxes": 0.07142857142857142,
    "silent_empty": 0,
    "pages": 21,
-   "s_per_page": 1.500952380952381,
+   "s_per_page": 1.7816666666666665,
    "peak_rss_mb": 92.0,
    "failed_jobs": 0
   },
+  "rag": {
+   "fixed": {
+    "n": 72,
+    "preserved": 0.9846153846153847,
+    "recall5": 0.9692307692307692,
+    "accuracy": 0.8194444444444444,
+    "tables": 0.65,
+    "scans": 0.8333333333333334,
+    "forms": 0.8571428571428571,
+    "text": 1.0
+   },
+   "structure": {
+    "n": 72,
+    "preserved": 0.9846153846153847,
+    "recall5": 0.9384615384615385,
+    "accuracy": 0.8472222222222222,
+    "tables": 0.9,
+    "scans": 0.7333333333333333,
+    "forms": 0.8571428571428571,
+    "text": 1.0
+   }
+  },
   "public": {
    "public_tables": 0.0,
-   "public_multi_column": 0.0,
+   "public_multi_column": 0.4,
    "public_old_scans": 0.2
   }
  },
  "docling": {
   "parse": {
-   "text_sim_window": 0.8863358403162369,
-   "text_sim": 0.6888606995530172,
-   "order": 0.798941798941799,
+   "text_sim_window": 0.9389684569604274,
+   "text_sim": 0.8090252518020268,
+   "order": 0.9417989417989419,
    "teds": 0.9485090711763563,
    "cell_recall": 0.9876543209876544,
-   "fields": 0.5357142857142857,
-   "boxes": 0.5714285714285714,
-   "silent_empty": 2,
+   "fields": 0.9642857142857143,
+   "boxes": 1.0,
+   "silent_empty": 1,
    "pages": 21,
-   "s_per_page": 5.827142857142857,
-   "peak_rss_mb": 3489.4,
-   "failed_jobs": 1
+   "s_per_page": 5.730833333333333,
+   "peak_rss_mb": 3807.3,
+   "failed_jobs": 0
+  },
+  "rag": {
+   "fixed": {
+    "n": 72,
+    "preserved": 1.0,
+    "recall5": 0.9538461538461539,
+    "accuracy": 0.8888888888888888,
+    "tables": 0.7,
+    "scans": 0.9666666666666667,
+    "forms": 0.8571428571428571,
+    "text": 1.0
+   },
+   "structure": {
+    "n": 72,
+    "preserved": 1.0,
+    "recall5": 0.9692307692307692,
+    "accuracy": 0.875,
+    "tables": 0.85,
+    "scans": 0.9,
+    "forms": 0.5714285714285714,
+    "text": 1.0
+   }
   },
   "public": {
-   "public_tables": 0.0,
-   "public_multi_column": 0.0,
+   "public_tables": 0.7142857142857143,
+   "public_multi_column": 1.0,
    "public_old_scans": 0.2
   }
  },
  "docling_granite": {
   "parse": {
-   "text_sim_window": 0.9776042725805693,
-   "text_sim": 0.9668371073592278,
-   "order": 0.965432098765432,
-   "teds": 1.0,
-   "cell_recall": 1.0,
-   "fields": null,
-   "boxes": null,
+   "text_sim_window": 0.9471446952843675,
+   "text_sim": 0.9127639986383442,
+   "order": 0.9851851851851853,
+   "teds": 0.9997706685013187,
+   "cell_recall": 0.9938271604938271,
+   "fields": 0.7142857142857143,
+   "boxes": 0.5714285714285714,
    "silent_empty": 0,
-   "pages": 9,
-   "s_per_page": 12.25,
-   "peak_rss_mb": 3103.3,
+   "pages": 21,
+   "s_per_page": 11.188749999999999,
+   "peak_rss_mb": 3512.1,
    "failed_jobs": 0
+  },
+  "rag": {
+   "fixed": {
+    "n": 72,
+    "preserved": 0.9384615384615385,
+    "recall5": 0.9076923076923077,
+    "accuracy": 0.7638888888888888,
+    "tables": 0.7,
+    "scans": 0.6666666666666666,
+    "forms": 0.8571428571428571,
+    "text": 1.0
+   },
+   "structure": {
+    "n": 72,
+    "preserved": 0.9384615384615385,
+    "recall5": 0.8923076923076924,
+    "accuracy": 0.7361111111111112,
+    "tables": 0.95,
+    "scans": 0.6,
+    "forms": 0.14285714285714285,
+    "text": 1.0
+   }
   },
   "public": {
    "public_tables": 0.0,
-   "public_multi_column": 0.0,
+   "public_multi_column": 1.0,
+   "public_old_scans": 0.0
+  }
+ },
+ "marker": {
+  "parse": {
+   "text_sim_window": 0.9521405570254852,
+   "text_sim": 0.8936225968679659,
+   "order": 0.9708994708994709,
+   "teds": 0.9869562879567193,
+   "cell_recall": 0.9969135802469135,
+   "fields": 0.9285714285714286,
+   "boxes": 0.14285714285714285,
+   "silent_empty": 0,
+   "pages": 21,
+   "s_per_page": 2.7470833333333338,
+   "peak_rss_mb": 1079.8,
+   "failed_jobs": 0
+  },
+  "rag": {
+   "fixed": {
+    "n": 72,
+    "preserved": 1.0,
+    "recall5": 0.9692307692307692,
+    "accuracy": 0.875,
+    "tables": 0.7,
+    "scans": 0.9666666666666667,
+    "forms": 0.7142857142857143,
+    "text": 1.0
+   },
+   "structure": {
+    "n": 72,
+    "preserved": 1.0,
+    "recall5": 0.8,
+    "accuracy": 0.6666666666666666,
+    "tables": 0.9,
+    "scans": 0.5,
+    "forms": 0.0,
+    "text": 1.0
+   }
+  },
+  "public": {
+   "public_tables": 0.7142857142857143,
+   "public_multi_column": 1.0,
+   "public_old_scans": 0.0
+  }
+ },
+ "surya": {
+  "parse": {
+   "text_sim_window": 0.9913774661278723,
+   "text_sim": 0.9839755674954729,
+   "order": 0.9851851851851853,
+   "teds": 0.9837098523285052,
+   "cell_recall": 0.9969135802469135,
+   "fields": 0.8928571428571429,
+   "boxes": 0.0,
+   "silent_empty": 0,
+   "pages": 21,
+   "s_per_page": 22.333333333333332,
+   "peak_rss_mb": 15.4,
+   "failed_jobs": 0
+  },
+  "rag": {
+   "fixed": {
+    "n": 72,
+    "preserved": 1.0,
+    "recall5": 0.8769230769230769,
+    "accuracy": 0.6805555555555556,
+    "tables": 0.85,
+    "scans": 0.3333333333333333,
+    "forms": 1.0,
+    "text": 1.0
+   },
+   "structure": {
+    "n": 72,
+    "preserved": 1.0,
+    "recall5": 0.8153846153846154,
+    "accuracy": 0.625,
+    "tables": 0.4,
+    "scans": 0.5666666666666667,
+    "forms": 0.7142857142857143,
+    "text": 1.0
+   }
+  },
+  "public": {
+   "public_tables": 1.0,
+   "public_multi_column": 1.0,
+   "public_old_scans": 0.0
+  }
+ },
+ "mineru_pipeline": {
+  "parse": {
+   "text_sim_window": 0.9739853704677127,
+   "text_sim": 0.9556616715771076,
+   "order": 0.9851851851851853,
+   "teds": 0.9369146446536036,
+   "cell_recall": 0.9969135802469135,
+   "fields": 0.7857142857142857,
+   "boxes": 0.3333333333333333,
+   "silent_empty": 0,
+   "pages": 21,
+   "s_per_page": 5.915416666666666,
+   "peak_rss_mb": 3037.9,
+   "failed_jobs": 0
+  },
+  "rag": {
+   "fixed": {
+    "n": 72,
+    "preserved": 0.9846153846153847,
+    "recall5": 0.9076923076923077,
+    "accuracy": 0.8333333333333334,
+    "tables": 0.8,
+    "scans": 0.7666666666666667,
+    "forms": 0.8571428571428571,
+    "text": 1.0
+   },
+   "structure": {
+    "n": 72,
+    "preserved": 0.9846153846153847,
+    "recall5": 0.8,
+    "accuracy": 0.6805555555555556,
+    "tables": 0.4,
+    "scans": 0.7666666666666667,
+    "forms": 0.42857142857142855,
+    "text": 1.0
+   }
+  },
+  "public": {
+   "public_tables": 0.7142857142857143,
+   "public_multi_column": 1.0,
    "public_old_scans": 0.2
+  }
+ },
+ "mineru_vlm": {
+  "parse": {
+   "text_sim_window": 0.9795277636452749,
+   "text_sim": 0.9672831668023782,
+   "order": 0.9851851851851853,
+   "teds": 0.9716775599128541,
+   "cell_recall": 1.0,
+   "fields": 0.875,
+   "boxes": 0.5,
+   "silent_empty": 0,
+   "pages": 21,
+   "s_per_page": 6.8825,
+   "peak_rss_mb": 8062.8,
+   "failed_jobs": 0
+  },
+  "rag": {
+   "fixed": {
+    "n": 72,
+    "preserved": 0.9846153846153847,
+    "recall5": 0.8615384615384616,
+    "accuracy": 0.8194444444444444,
+    "tables": 0.8,
+    "scans": 0.7333333333333333,
+    "forms": 0.8571428571428571,
+    "text": 1.0
+   },
+   "structure": {
+    "n": 72,
+    "preserved": 0.9846153846153847,
+    "recall5": 0.8,
+    "accuracy": 0.6944444444444444,
+    "tables": 0.4,
+    "scans": 0.8,
+    "forms": 0.42857142857142855,
+    "text": 1.0
+   }
+  },
+  "public": {
+   "public_tables": 0.7142857142857143,
+   "public_multi_column": 1.0,
+   "public_old_scans": 0.2
+  }
+ },
+ "unstructured": {
+  "parse": {
+   "text_sim_window": 0.9291114456451006,
+   "text_sim": 0.8584795519582197,
+   "order": 0.9550264550264551,
+   "teds": 0.7797059383424061,
+   "cell_recall": 0.9131703903633728,
+   "fields": 0.48214285714285715,
+   "boxes": 0.047619047619047616,
+   "silent_empty": 0,
+   "pages": 21,
+   "s_per_page": 12.15125,
+   "peak_rss_mb": 3069.7,
+   "failed_jobs": 0
+  },
+  "rag": {
+   "fixed": {
+    "n": 72,
+    "preserved": 0.8461538461538461,
+    "recall5": 0.8,
+    "accuracy": 0.75,
+    "tables": 0.85,
+    "scans": 0.5666666666666667,
+    "forms": 0.7142857142857143,
+    "text": 1.0
+   },
+   "structure": {
+    "n": 72,
+    "preserved": 0.8461538461538461,
+    "recall5": 0.6461538461538462,
+    "accuracy": 0.5277777777777778,
+    "tables": 0.4,
+    "scans": 0.4666666666666667,
+    "forms": 0.14285714285714285,
+    "text": 1.0
+   }
+  },
+  "public": {
+   "public_tables": 0.14285714285714285,
+   "public_multi_column": 0.4,
+   "public_old_scans": 0.2
+  }
+ },
+ "paddle_ppstructure": {
+  "parse": {
+   "text_sim_window": 0.9440201590097737,
+   "text_sim": 0.9125724939883791,
+   "order": 0.9084656084656085,
+   "teds": 0.8397545292719212,
+   "cell_recall": 0.9510021492477632,
+   "fields": 0.9464285714285714,
+   "boxes": 0.047619047619047616,
+   "silent_empty": 0,
+   "pages": 21,
+   "s_per_page": 36.73041666666666,
+   "peak_rss_mb": 18923.7,
+   "failed_jobs": 1
+  },
+  "rag": {
+   "fixed": {
+    "n": 72,
+    "preserved": 0.9230769230769231,
+    "recall5": 0.8307692307692308,
+    "accuracy": 0.7222222222222222,
+    "tables": 0.75,
+    "scans": 0.5666666666666667,
+    "forms": 0.8571428571428571,
+    "text": 0.9333333333333333
+   },
+   "structure": {
+    "n": 72,
+    "preserved": 0.9230769230769231,
+    "recall5": 0.7384615384615385,
+    "accuracy": 0.5277777777777778,
+    "tables": 0.3,
+    "scans": 0.5333333333333333,
+    "forms": 0.2857142857142857,
+    "text": 0.9333333333333333
+   }
+  },
+  "public": {
+   "public_tables": 0.8571428571428571,
+   "public_multi_column": 0.2,
+   "public_old_scans": 0.2
+  }
+ },
+ "olmocr2": {
+  "parse": {
+   "text_sim_window": 0.7753893606469937,
+   "text_sim": 0.5182662945240929,
+   "order": 0.503042328042328,
+   "teds": 0.6662309368191721,
+   "cell_recall": 0.6635802469135803,
+   "fields": 0.0,
+   "boxes": 0.0,
+   "silent_empty": 10,
+   "pages": 21,
+   "s_per_page": 21.64916666666667,
+   "peak_rss_mb": 8400.9,
+   "failed_jobs": 0
+  },
+  "rag": {
+   "fixed": {
+    "n": 72,
+    "preserved": 0.6307692307692307,
+    "recall5": 0.6,
+    "accuracy": 0.4583333333333333,
+    "tables": 0.65,
+    "scans": 0.16666666666666666,
+    "forms": 0.0,
+    "text": 1.0
+   },
+   "structure": {
+    "n": 72,
+    "preserved": 0.6307692307692307,
+    "recall5": 0.6307692307692307,
+    "accuracy": 0.5555555555555556,
+    "tables": 1.0,
+    "scans": 0.16666666666666666,
+    "forms": 0.0,
+    "text": 1.0
+   }
+  },
+  "public": {
+   "public_tables": 1.0,
+   "public_multi_column": 1.0,
+   "public_old_scans": 0.2
+  }
+ },
+ "olmocr2_8bit": {
+  "parse": {
+   "text_sim_window": 0.9866690030906081,
+   "text_sim": 0.9734273238403558,
+   "order": 0.9851851851851853,
+   "teds": 0.9995642701525055,
+   "cell_recall": 0.9969135802469135,
+   "fields": 1.0,
+   "boxes": 1.0,
+   "silent_empty": 0,
+   "pages": 21,
+   "s_per_page": 51.66,
+   "peak_rss_mb": 12271.3,
+   "failed_jobs": 0
+  },
+  "rag": {
+   "fixed": {
+    "n": 72,
+    "preserved": 1.0,
+    "recall5": 0.8923076923076924,
+    "accuracy": 0.8194444444444444,
+    "tables": 0.9,
+    "scans": 0.6666666666666666,
+    "forms": 0.8571428571428571,
+    "text": 1.0
+   },
+   "structure": {
+    "n": 72,
+    "preserved": 1.0,
+    "recall5": 0.9538461538461539,
+    "accuracy": 0.9305555555555556,
+    "tables": 0.8,
+    "scans": 0.9666666666666667,
+    "forms": 1.0,
+    "text": 1.0
+   }
+  },
+  "public": {
+   "public_tables": 1.0,
+   "public_multi_column": 1.0,
+   "public_old_scans": 0.2
+  }
+ },
+ "paddleocr_vl": {
+  "parse": {
+   "text_sim_window": 0.9732252930106127,
+   "text_sim": 0.9669811941074716,
+   "order": 0.9817838246409675,
+   "teds": 0.0,
+   "cell_recall": 0.9988304093567252,
+   "fields": 0.9285714285714286,
+   "boxes": 0.9761904761904762,
+   "silent_empty": 0,
+   "pages": 21,
+   "s_per_page": 7.28375,
+   "peak_rss_mb": 3220.9,
+   "failed_jobs": 0
+  },
+  "rag": {
+   "fixed": {
+    "n": 72,
+    "preserved": 0.9692307692307692,
+    "recall5": 0.9692307692307692,
+    "accuracy": 0.8194444444444444,
+    "tables": 0.7,
+    "scans": 0.7666666666666667,
+    "forms": 1.0,
+    "text": 1.0
+   },
+   "structure": {
+    "n": 72,
+    "preserved": 0.9692307692307692,
+    "recall5": 0.9384615384615385,
+    "accuracy": 0.8472222222222222,
+    "tables": 0.8,
+    "scans": 0.7666666666666667,
+    "forms": 1.0,
+    "text": 1.0
+   }
+  },
+  "public": {
+   "public_tables": 0.0,
+   "public_multi_column": 1.0,
+   "public_old_scans": 0.0
   }
  }
 }

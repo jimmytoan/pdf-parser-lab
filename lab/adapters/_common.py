@@ -22,12 +22,14 @@ def args():
 
 def page_count(pdf):
     # tiny dependency-free page counter fallback; adapters usually know the count themselves
-    try:
-        import pypdf  # noqa
-        return len(pypdf.PdfReader(pdf).pages)
-    except Exception:
-        data = open(pdf, "rb").read()
-        return max(1, data.count(b"/Type /Page") - data.count(b"/Type /Pages"))
+    for fn in (lambda: __import__("pypdf").PdfReader(pdf).pages.__len__(),
+               lambda: len(__import__("pypdfium2").PdfDocument(pdf)),
+               lambda: __import__("pymupdf").open(pdf).page_count):
+        try:
+            return fn()
+        except Exception:
+            pass
+    raise RuntimeError("no PDF library available to count pages")
 
 
 class Timer:

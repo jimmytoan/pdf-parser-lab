@@ -19,6 +19,7 @@ from score import norm, norm_compact
 
 EMBED_MODEL = "BAAI/bge-m3"
 ANSWER_MODEL = "mlx-community/Qwen3-4B-Instruct-2507-4bit"
+CHUNKER_VERSION = {"fixed": "v1", "structure": "v2"}  # v2: heading path prepended (v1: nearest heading only)
 CHUNK_TOKENS = 400
 OVERLAP = 50
 TOP_K = 5
@@ -59,7 +60,7 @@ def chunk_fixed(doc_text: str, tok: Tok):
     return [c for c in out if c.strip()]
 
 
-_HEAD = re.compile(r"^\s{0,3}#{1,6}\s+(.*)$")
+_HEAD = re.compile(r"^\s{0,3}(#{1,6})\s+(.*)$")
 
 
 def _blocks(md: str):
@@ -95,7 +96,7 @@ def _blocks(md: str):
         if m:
             if cur:
                 blocks.append(("p", "\n".join(cur))); cur = []
-            blocks.append(("h", m.group(1).strip()))
+            blocks.append(("h", (len(m.group(1)), m.group(2).strip())))
         elif not ln.strip():
             if cur:
                 blocks.append(("p", "\n".join(cur))); cur = []
@@ -111,6 +112,7 @@ def chunk_structure(doc_text: str, tok: Tok):
     """Sections by heading; tables kept whole as their own chunk (split by rows only if
     very long, header repeated); each chunk carries its section heading."""
     out, heading, buf, n = [], "", [], 0
+    path = []  # (level, text) breadcrumb, as Docling's HybridChunker / LlamaIndex add heading context
 
     def flush():
         nonlocal buf, n
@@ -121,7 +123,9 @@ def chunk_structure(doc_text: str, tok: Tok):
     for kind, text in _blocks(doc_text):
         if kind == "h":
             flush()
-            heading = text
+            lvl, txt = text
+            path = [(l, t) for l, t in path if l < lvl] + [(lvl, txt)]
+            heading = " > ".join(t for _, t in path)
             continue
         k = len(tok.ids(text))
         if kind == "t":

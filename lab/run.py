@@ -140,7 +140,7 @@ def cmd_parse(a, registry=None):
                             "error": "spend cap / hosted"})
                 continue
         for j in jobs:
-            if a.resume and (name, j["doc"]) in done:
+            if a.resume and not getattr(a, "redo", False) and (name, j["doc"]) in done:
                 continue
             if spent_s > budget_s:
                 print(f"TIME BUDGET reached ({spent_s/3600:.2f} h of {a.max_hours} h); stopping before {name}/{j['doc']}")
@@ -177,11 +177,15 @@ def cmd_parse(a, registry=None):
             if pages_ok:
                 meta = json.load(open(os.path.join(od, "meta.json")))
             ok = (rc == 0 and pages_ok)
+            n_out = len(json.load(open(os.path.join(od, "pages.json")))) if pages_ok else 0
+            if ok and n_out != n:
+                err = f"page count mismatch: adapter returned {n_out} pages for {n}"
+                ok = False
             rec = {"stage": "parse", "tag": a.tag, "set": a.set, "contestant": name, "doc": j["doc"], "pages": n, "ok": ok,
                    "wall_s": round(wall, 2), "s_per_page": round(wall / n, 3), "convert_s": meta.get("convert_s"),
                    "load_s": meta.get("load_s"), "peak_rss_mb": parse_rss(stderr),
                    "peak_footprint_mb": parse_rss(stderr, "peak memory footprint"), "version": meta.get("version"),
-                   "settings": meta.get("settings"), "usd": 0.0, "error": err[-3000:] if not ok else None}
+                   "settings": meta.get("settings"), "usd": 0.0, "error": err[-3000:] if not ok else None, "pages_out": n_out}
             append_run(rec)
             print(f"{name:20s} {j['doc']:12s} {'ok ' if ok else 'ERR'} {wall:7.1f}s  {rec['peak_rss_mb']} MB" + ("" if ok else f"  {err.splitlines()[-1][:150] if err else ''}"), flush=True)
 
@@ -255,7 +259,7 @@ def rag_plan(set_name):
 
 def cmd_rag(a):
     mlx_py = os.path.join(ROOT, "envs", "mlx", "bin", "python")
-    if not a.fake_models and os.path.realpath(sys.executable) != os.path.realpath(mlx_py) and not os.environ.get("LAB_NO_REEXEC"):
+    if not a.fake_models and os.path.realpath(sys.prefix) != os.path.realpath(os.path.join(ROOT, "envs", "mlx")) and not os.environ.get("LAB_NO_REEXEC"):
         os.execv(mlx_py, [mlx_py] + sys.argv)
     import numpy as np
 
@@ -263,7 +267,8 @@ def cmd_rag(a):
     from score import norm_compact
     names = a.contestants.split(",") if a.contestants else sorted({r["contestant"] for r in load_runs(a.tag, "parse") if r.get("ok")})
     base, conds, qs = rag_plan(a.set)
-    done = {(r["contestant"], r["chunking"], r["condition"], r["qid"]) for r in load_runs(a.tag, "rag")}
+    done = {(r["contestant"], r["chunking"], r["condition"], r["qid"]) for r in load_runs(a.tag, "rag")
+            if r.get("chunker", "v1") == rag.CHUNKER_VERSION.get(r["chunking"], "v1")}
     tok = rag.Tok(fake=a.fake_models)
     os.makedirs(os.path.join(RESULTS, "cache"), exist_ok=True)
     emb = rag.Embedder(os.path.join(RESULTS, "cache", "embeddings.sqlite"), fake=a.fake_models)
@@ -319,11 +324,12 @@ def cmd_rag(a):
                 answer = ans(q["question"], top_chunks) if top_chunks else "unknown"
                 correct = rag.grade(answer, q["answers"])
                 append_run({"stage": "rag", "tag": a.tag, "set": a.set, "contestant": cn, "chunking": ch, "condition": q["condition"],
-                            "qid": q["qid"], "kind": q["kind"], "lang": q["lang"], "preserved": preserved, "recall5": recall,
+                            "qid": q["qid"], "kind": q["kind"], "lang": q["lang"], "chunker": rag.CHUNKER_VERSION[ch], "preserved": preserved, "recall5": recall,
                             "correct": correct, "answer": answer[:200], "gold": q["answers"][0], "answer_s": round(time.time() - t1, 2),
                             "n_chunks": len(pool), "embed_s": round(emb_s, 2) if qi == 0 else None,
                             "embedder": rag.EMBED_MODEL if not a.fake_models else "fake", "answerer": rag.ANSWER_MODEL if not a.fake_models else "fake"})
-            acc = sum(1 for r in load_runs(a.tag, "rag") if r["contestant"] == cn and r["chunking"] == ch and r["correct"])
+            acc = sum(1 for r in load_runs(a.tag, "rag") if r["contestant"] == cn and r["chunking"] == ch and r["correct"]
+                      and r.get("chunker", "v1") == rag.CHUNKER_VERSION[ch])
             print(f"{cn:20s} {ch:9s} questions={len(todo)} chunks={len(all_docs_chunks)} embed={emb_s:.1f}s total={time.time()-t0:.1f}s correct={acc}", flush=True)
 
 
@@ -350,13 +356,16 @@ def cmd_report(a):
         if r["doc"] != "*":
             latest[(r["contestant"], r["doc"])] = r
     rag_runs = {}
+    import rag as _rag
     for r in load_runs(a.tag, "rag"):
+        if r.get("chunker", "v1") != _rag.CHUNKER_VERSION.get(r["chunking"], "v1"):
+            continue
         rag_runs[(r["contestant"], r["chunking"], r["condition"], r["qid"])] = r
     rag_rows = list(rag_runs.values())
-    names = sorted({c for c, _ in latest}, key=lambda n: list(C).index(n) if n in C else 99)
+    names = sorted({c for c, _ in latest if not C.get(c, {}).get("dropped")}, key=lambda n: list(C).index(n) if n in C else 99)
     L = [f"# Results: tag `{a.tag}`, set `{a.set}`", "",
          f"Generated {time.strftime('%Y-%m-%d %H:%M')}. Machine: Apple M5, 24 GB, macOS; parsers run one at a time with nice 10 and 4 threads.", ""]
-    errs = [r for r in latest.values() if not r["ok"]]
+    errs = [r for (c, _), r in latest.items() if not r["ok"] and not C.get(c, {}).get("dropped")]
     L.append(f"Parse jobs: {len(latest)}, failed: {len(errs)} (failed jobs score as empty output; they are listed at the end).")
     L.append("")
     L += ["## Stage 1: parsing", "",
@@ -372,7 +381,7 @@ def cmd_report(a):
         jobs = [r for (c, _), r in latest.items() if c == n]
         pages = sum(j["pages"] for j in jobs)
         sp = sum(j["wall_s"] for j in jobs) / max(1, pages)
-        rss = max((j.get("peak_footprint_mb") or j.get("peak_rss_mb") or 0) for j in jobs) if jobs else None
+        rss = max((j.get("peak_footprint_mb") or j.get("peak_rss_mb") or 0) for j in jobs if j["ok"]) if any(j["ok"] for j in jobs) else None
         se = sum(1 for r in rs if r["silent_empty"])
         ws = [w for w in wins if w["contestant"] == n]
         wsim = sum(w["text_sim_window"] * w["truth_chars"] for w in ws) / max(1, sum(w["truth_chars"] for w in ws)) if ws else None
@@ -540,7 +549,7 @@ def cmd_self_test(a):
             "json.dump([{'page': i+1, 'text': score.truth_markdown(tr['pages'][p-1])} for i, p in enumerate(pm)], open(os.path.join(out, 'pages.json'), 'w'))\n"
             "json.dump({'version': 'fake', 'convert_s': 0}, open(os.path.join(out, 'meta.json'), 'w'))\n")
         empty_ad = os.path.join(fake_dir, "empty.py")
-        open(empty_ad, "w").write("import sys, json, os\nout=sys.argv[2]\njson.dump([{'page':1,'text':''}], open(os.path.join(out,'pages.json'),'w'))\njson.dump({}, open(os.path.join(out,'meta.json'),'w'))\n")
+        open(empty_ad, "w").write("import sys, json, os\nout=sys.argv[2]\njson.dump([{'page':i+1,'text':''} for i in range(len(json.loads(os.environ['LAB_PAGE_MAP'])))], open(os.path.join(out,'pages.json'),'w'))\njson.dump({}, open(os.path.join(out,'meta.json'),'w'))\n")
         crash_ad = os.path.join(fake_dir, "crash.py")
         open(crash_ad, "w").write("raise SystemExit('boom')\n")
         reg = {"perfect": dict(name="perfect", py=sys.executable, adapter=perfect_ad, envs={}, family="fake", licence="-", flag=""),
@@ -601,6 +610,7 @@ def main():
         if nm in ("parse", "rag"):
             p.add_argument("--contestants", default=None)
             p.add_argument("--resume", action="store_true")
+            p.add_argument("--redo", action="store_true", help="(parse) rerun cells even if finished; the newest record wins")
             p.add_argument("--max-hours", type=float, default=6.0, help="time budget for this tag; no new job starts beyond it")
         if nm == "parse":
             p.add_argument("--max-usd", type=float, default=0.0, help="hard spend cap; hosted contestants are refused at $0")

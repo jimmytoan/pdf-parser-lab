@@ -29,7 +29,8 @@ C = {
     "marker": dict(py=env("marker"), adapter="marker_adapter.py", family="layout models",
                    licence="Apache-2.0 code (package metadata); model weights modified OpenRAIL-M, free only under $5M revenue/funding",
                    flag="non-commercial weights above $5M"),
-    "surya": dict(py=env("marker"), adapter="surya_adapter.py", family="OCR model",
+    "surya": dict(py=env("marker"), adapter="surya_adapter.py", family="OCR model (llama.cpp)",
+                  envs={"LLAMA_CPP_BINARY": os.path.join(ROOT, "envs", "mineru", "lib", "python3.12", "site-packages", "mineru_llama_cpp", "bin", "llama-server")},
                   licence="Apache-2.0 code (package metadata); weights modified OpenRAIL-M as Marker", flag="non-commercial weights above $5M"),
     "mineru_pipeline": dict(py=env("mineru"), adapter="mineru_adapter.py", envs={"MINERU_EFFORT": "medium"}, family="layout models",
                             licence="MinerU Open Source License (Apache-2.0-based, commercial thresholds); earlier releases AGPL-3.0",
@@ -40,12 +41,15 @@ C = {
                          licence="Apache-2.0", flag=""),
     "paddle_ppstructure": dict(py=env("paddle"), adapter="paddle_adapter.py", family="layout models (CPU)",
                                licence="Apache-2.0", flag=""),
-    "olmocr2": dict(py=env("mlx"), adapter="mlxvlm_adapter.py", envs={"VLM_MODEL": "olmocr2"}, family="VLM (MLX)",
+    "olmocr2": dict(py=env("mlx"), adapter="mlxvlm_adapter.py", envs={"VLM_MODEL": "olmocr2"}, family="VLM (MLX, 4-bit)",
                     licence="Apache-2.0 (olmOCR-2-7B-1025, Qwen2.5-VL base)", flag=""),
+    "olmocr2_8bit": dict(py=env("mlx"), adapter="mlxvlm_adapter.py", envs={"VLM_MODEL": "olmocr2_8bit"}, family="VLM (MLX, 8-bit)",
+                         licence="Apache-2.0 (olmOCR-2-7B-1025, Qwen2.5-VL base)", flag=""),
     "paddleocr_vl": dict(py=env("mlx"), adapter="mlxvlm_adapter.py", envs={"VLM_MODEL": "paddleocr_vl"}, family="VLM (MLX)",
                          licence="Apache-2.0 (PaddleOCR-VL-1.5)", flag=""),
+    # dropped: fails to load in mlx-vlm 0.8.0 (unrecognised processor), v1 and v2 alike; kept for the record
     "deepseek_ocr2": dict(py=env("mlx"), adapter="mlxvlm_adapter.py", envs={"VLM_MODEL": "deepseek_ocr2"}, family="VLM (MLX)",
-                          licence="Apache-2.0 (DeepSeek-OCR-2 model card)", flag=""),
+                          licence="Apache-2.0 (DeepSeek-OCR-2 model card)", flag="", dropped=True),
 }
 
 for k, v in C.items():
