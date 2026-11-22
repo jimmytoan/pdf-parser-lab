@@ -369,8 +369,8 @@ def cmd_report(a):
     L.append(f"Parse jobs: {len(latest)}, failed: {len(errs)} (failed jobs score as empty output; they are listed at the end).")
     L.append("")
     L += ["## Stage 1: parsing", "",
-          "| Parser | Text similarity (5-page windows, char-weighted) | Text similarity (per page) | Reading order | Table TEDS | Table cell recall | Form fields | Checkboxes | Silent empty pages | s/page (wall) | Peak memory MB |",
-          "|---|---|---|---|---|---|---|---|---|---|---|"]
+          "| Parser | Text similarity (5-page windows, char-weighted) | Text similarity (per page) | Reading order | Table TEDS | Table cell recall | Form fields | Checkboxes | Silent empty pages | s/page (wall) | Peak RSS MB | Peak footprint MB |",
+          "|---|---|---|---|---|---|---|---|---|---|---|---|"]
     summary = {}
     for n in names:
         rs = [r for r in rows if r["contestant"] == n]
@@ -381,16 +381,22 @@ def cmd_report(a):
         jobs = [r for (c, _), r in latest.items() if c == n]
         pages = sum(j["pages"] for j in jobs)
         sp = sum(j["wall_s"] for j in jobs) / max(1, pages)
-        rss = max((j.get("peak_footprint_mb") or j.get("peak_rss_mb") or 0) for j in jobs if j["ok"]) if any(j["ok"] for j in jobs) else None
+        okj = [j for j in jobs if j["ok"]]
+        rss = max((j.get("peak_rss_mb") or 0) for j in okj) if okj else None
+        foot = max((j.get("peak_footprint_mb") or 0) for j in okj) if okj else None
         se = sum(1 for r in rs if r["silent_empty"])
         ws = [w for w in wins if w["contestant"] == n]
         wsim = sum(w["text_sim_window"] * w["truth_chars"] for w in ws) / max(1, sum(w["truth_chars"] for w in ws)) if ws else None
         s = {"text_sim_window": wsim, "text_sim": mean(r["text_sim"] for r in rs), "order": mean(r["order"] for r in rs),
              "teds": mean(t["teds"] for t in tabs), "cell_recall": mean(t["cell_recall"] for t in tabs), "fields": fo, "boxes": bo,
-             "silent_empty": se, "pages": len(rs), "s_per_page": sp, "peak_rss_mb": rss, "failed_jobs": sum(1 for j in jobs if not j["ok"])}
+             "silent_empty": se, "pages": len(rs), "s_per_page": sp, "peak_rss_mb": rss, "peak_footprint_mb": foot, "failed_jobs": sum(1 for j in jobs if not j["ok"])}
         summary[n] = {"parse": s}
-        L.append(f"| {n} | {fmt(wsim)} | {fmt(s['text_sim'])} | {fmt(s['order'])} | {fmt(s['teds'])} | {fmt(s['cell_recall'])} | {fmt(fo, True)} | {fmt(bo, True)} | {se}/{len(rs)} | {sp:.2f} | {rss} |")
-    L += ["", "### Text similarity by category (5-page windows)", ""]
+        L.append(f"| {n} | {fmt(wsim)} | {fmt(s['text_sim'])} | {fmt(s['order'])} | {fmt(s['teds'])} | {fmt(s['cell_recall'])} | {fmt(fo, True)} | {fmt(bo, True)} | {se}/{len(rs)} | {sp:.2f} | {rss} | {foot} |")
+    L += ["", "Notes on stage 1:", "",
+          "- *Peak RSS* is resident memory from `/usr/bin/time -l`; *peak footprint* is macOS's figure that also counts compressed and swapped pages, so it can exceed the 24 GB of RAM. Surya's model runs in a separate `llama-server` process that is not measured; OCRmyPDF's Tesseract workers are child processes (largest single process shown).",
+          "- Silent empty pages for pypdf and pdfplumber are the 80 image-only scan pages (no text layer, no OCR).",
+          "- Docling's silent empty pages are a page-attribution artefact, not lost text: on the 122-page report its total output (416,396 chars) matches the truth (416,313), but `export_to_markdown(page_no=...)` files some items under neighbouring pages. This depresses its per-page and windowed similarity on the report; the RAG stage uses the whole document, so it is unaffected.", ""]
+    L += ["### Text similarity by category (5-page windows)", ""]
     cats = sorted({r["category"] for r in rows})
     L += ["| Parser | " + " | ".join(cats) + " |", "|---|" + "---|" * len(cats)]
     for n in names:
