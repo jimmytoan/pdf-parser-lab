@@ -9,7 +9,7 @@ commercial use.
 |---|---|---|---|---|---|
 | pypdf | text layer only | pypdf 7.1.1 | BSD-3-Clause | – | – |
 | pdfplumber | text layer; tables found by ruling lines, inserted as Markdown | pdfplumber 0.11.11 | MIT | – | – |
-| pymupdf4llm | text layer to Markdown (PyMuPDF layout; OCR not configured) | pymupdf4llm 2.1, PyMuPDF 2.1 | **AGPL-3.0** or Artifex commercial | – | **AGPL** |
+| pymupdf4llm | text layer to Markdown (PyMuPDF layout); defaults, which include `use_ocr=True`, so image-only pages go through Tesseract | pymupdf4llm 2.1, PyMuPDF 2.1 | **AGPL-3.0** or Artifex commercial | – | **AGPL** |
 | ocrmypdf | Tesseract on every page (`--force-ocr`, eng+chi_sim+vie), text read back with pypdf | OCRmyPDF 17.6.0, Tesseract 5.5.2, tessdata_fast | MPL-2.0 / Apache-2.0 | tessdata Apache-2.0 | – |
 | docling | standard pipeline: Heron layout, TableFormer, RapidOCR on bitmap regions | docling 2.151.1, docling-ibm-models 4.0.4 | MIT | MIT / Apache-2.0; RapidOCR Apache-2.0 | – |
 | docling_granite | Docling VLM pipeline, granite-docling-258M on MLX | docling 2.151.1, mlx-vlm 0.8.0 | MIT | Apache-2.0 | – |
